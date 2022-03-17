@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DBBD6B52D5D6C65146AF74A /* Pods_SomnosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B035858419B75C9CA970F2B5 /* Pods_SomnosTests.framework */; };
+		839F6BE927E07F9F00537758 /* ChangeRingtoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F6BE827E07F9F00537758 /* ChangeRingtoneViewController.swift */; };
+		839F6BEB27E07FE400537758 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F6BEA27E07FE400537758 /* AboutViewController.swift */; };
+		839F6BEE27E1273500537758 /* bleep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BED27E1273500537758 /* bleep.mp3 */; };
+		839F6BF227E1D01E00537758 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F6BF127E1D01E00537758 /* TableViewController.swift */; };
+		839F6BF427E2F89400537758 /* radar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BF327E2F89400537758 /* radar.mp3 */; };
+		839F6BF627E2F93B00537758 /* apex.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BF527E2F93B00537758 /* apex.mp3 */; };
+		839F6BF827E2F94100537758 /* beacon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BF727E2F94100537758 /* beacon.mp3 */; };
+		839F6BFA27E2F97300537758 /* circuit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BF927E2F97300537758 /* circuit.mp3 */; };
+		839F6BFC27E2F99200537758 /* signal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BFB27E2F99200537758 /* signal.mp3 */; };
+		839F6BFE27E2F9B200537758 /* illuminate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BFD27E2F9B200537758 /* illuminate.mp3 */; };
+		839F6C0027E2F9CA00537758 /* stargaze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BFF27E2F9CA00537758 /* stargaze.mp3 */; };
 		83AA198627D995A800DE280B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA198527D995A800DE280B /* AppDelegate.swift */; };
 		83AA198827D995A800DE280B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA198727D995A800DE280B /* SceneDelegate.swift */; };
 		83AA198A27D995A800DE280B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA198927D995A800DE280B /* ViewController.swift */; };
 		83AA198D27D995A800DE280B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AA198B27D995A800DE280B /* Main.storyboard */; };
 		83AA198F27D995A900DE280B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AA198E27D995A900DE280B /* Assets.xcassets */; };
-		83AA199227D995A900DE280B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AA199027D995A900DE280B /* LaunchScreen.storyboard */; };
 		83AA199D27D995A900DE280B /* SomnosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA199C27D995A900DE280B /* SomnosTests.swift */; };
 		83AA19A827D995A900DE280B /* SomnosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA19A727D995A900DE280B /* SomnosUITests.swift */; };
+		83AA19B627D9998700DE280B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AA19B527D9998700DE280B /* Launch Screen.storyboard */; };
+		CAAC0ED565085415C3559ECB /* Pods_Somnos_SomnosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF116988A98261C7DEA9571D /* Pods_Somnos_SomnosUITests.framework */; };
+		D55D3822F85651546473F679 /* Pods_Somnos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A25AE32667E7C252437130 /* Pods_Somnos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +49,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126C60B845C1868BAF9DCD45 /* Pods-SomnosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomnosTests.release.xcconfig"; path = "Target Support Files/Pods-SomnosTests/Pods-SomnosTests.release.xcconfig"; sourceTree = "<group>"; };
+		280D121F5F5051CB7446916E /* Pods-Somnos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somnos.debug.xcconfig"; path = "Target Support Files/Pods-Somnos/Pods-Somnos.debug.xcconfig"; sourceTree = "<group>"; };
+		48A25AE32667E7C252437130 /* Pods_Somnos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Somnos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE6A9A6E86B989BA0AC304B /* Pods-Somnos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somnos.release.xcconfig"; path = "Target Support Files/Pods-Somnos/Pods-Somnos.release.xcconfig"; sourceTree = "<group>"; };
+		839F6BE827E07F9F00537758 /* ChangeRingtoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeRingtoneViewController.swift; sourceTree = "<group>"; };
+		839F6BEA27E07FE400537758 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		839F6BED27E1273500537758 /* bleep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bleep.mp3; sourceTree = "<group>"; };
+		839F6BF127E1D01E00537758 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		839F6BF327E2F89400537758 /* radar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = radar.mp3; sourceTree = "<group>"; };
+		839F6BF527E2F93B00537758 /* apex.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apex.mp3; sourceTree = "<group>"; };
+		839F6BF727E2F94100537758 /* beacon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beacon.mp3; sourceTree = "<group>"; };
+		839F6BF927E2F97300537758 /* circuit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = circuit.mp3; sourceTree = "<group>"; };
+		839F6BFB27E2F99200537758 /* signal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = signal.mp3; sourceTree = "<group>"; };
+		839F6BFD27E2F9B200537758 /* illuminate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = illuminate.mp3; sourceTree = "<group>"; };
+		839F6BFF27E2F9CA00537758 /* stargaze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stargaze.mp3; sourceTree = "<group>"; };
 		83AA198227D995A800DE280B /* Somnos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Somnos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AA198527D995A800DE280B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83AA198727D995A800DE280B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		83AA198927D995A800DE280B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83AA198C27D995A800DE280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83AA198E27D995A900DE280B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83AA199127D995A900DE280B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83AA199327D995A900DE280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83AA199827D995A900DE280B /* SomnosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomnosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AA199C27D995A900DE280B /* SomnosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomnosTests.swift; sourceTree = "<group>"; };
@@ -49,6 +77,12 @@
 		83AA19A327D995A900DE280B /* SomnosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomnosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AA19A727D995A900DE280B /* SomnosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomnosUITests.swift; sourceTree = "<group>"; };
 		83AA19A927D995A900DE280B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83AA19B527D9998700DE280B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B035858419B75C9CA970F2B5 /* Pods_SomnosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SomnosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF116988A98261C7DEA9571D /* Pods_Somnos_SomnosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Somnos_SomnosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BEAA00752EF0CE396DA26E /* Pods-Somnos-SomnosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somnos-SomnosUITests.debug.xcconfig"; path = "Target Support Files/Pods-Somnos-SomnosUITests/Pods-Somnos-SomnosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E63EC9358B30F95A27EDFEE2 /* Pods-SomnosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SomnosTests.debug.xcconfig"; path = "Target Support Files/Pods-SomnosTests/Pods-SomnosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E99CE7B746B06FF408394914 /* Pods-Somnos-SomnosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Somnos-SomnosUITests.release.xcconfig"; path = "Target Support Files/Pods-Somnos-SomnosUITests/Pods-Somnos-SomnosUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D55D3822F85651546473F679 /* Pods_Somnos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBBD6B52D5D6C65146AF74A /* Pods_SomnosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +106,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAC0ED565085415C3559ECB /* Pods_Somnos_SomnosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09ACCFBA3D0E1DD4ADAFFDD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48A25AE32667E7C252437130 /* Pods_Somnos.framework */,
+				DF116988A98261C7DEA9571D /* Pods_Somnos_SomnosUITests.framework */,
+				B035858419B75C9CA970F2B5 /* Pods_SomnosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		839F6BEC27E1272400537758 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				839F6BF727E2F94100537758 /* beacon.mp3 */,
+				839F6BF527E2F93B00537758 /* apex.mp3 */,
+				839F6BF327E2F89400537758 /* radar.mp3 */,
+				839F6BFD27E2F9B200537758 /* illuminate.mp3 */,
+				839F6BFB27E2F99200537758 /* signal.mp3 */,
+				839F6BFF27E2F9CA00537758 /* stargaze.mp3 */,
+				839F6BF927E2F97300537758 /* circuit.mp3 */,
+				839F6BED27E1273500537758 /* bleep.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		83AA197927D995A800DE280B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				83AA199B27D995A900DE280B /* SomnosTests */,
 				83AA19A627D995A900DE280B /* SomnosUITests */,
 				83AA198327D995A800DE280B /* Products */,
+				A32A679247AECFD89C4C11E9 /* Pods */,
+				09ACCFBA3D0E1DD4ADAFFDD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +163,17 @@
 		83AA198427D995A800DE280B /* Somnos */ = {
 			isa = PBXGroup;
 			children = (
+				839F6BEC27E1272400537758 /* Sounds */,
 				83AA198527D995A800DE280B /* AppDelegate.swift */,
 				83AA198727D995A800DE280B /* SceneDelegate.swift */,
 				83AA198927D995A800DE280B /* ViewController.swift */,
+				839F6BE827E07F9F00537758 /* ChangeRingtoneViewController.swift */,
+				839F6BEA27E07FE400537758 /* AboutViewController.swift */,
 				83AA198B27D995A800DE280B /* Main.storyboard */,
+				83AA19B527D9998700DE280B /* Launch Screen.storyboard */,
 				83AA198E27D995A900DE280B /* Assets.xcassets */,
-				83AA199027D995A900DE280B /* LaunchScreen.storyboard */,
 				83AA199327D995A900DE280B /* Info.plist */,
+				839F6BF127E1D01E00537758 /* TableViewController.swift */,
 			);
 			path = Somnos;
 			sourceTree = "<group>";
@@ -128,6 +196,19 @@
 			path = SomnosUITests;
 			sourceTree = "<group>";
 		};
+		A32A679247AECFD89C4C11E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				280D121F5F5051CB7446916E /* Pods-Somnos.debug.xcconfig */,
+				6CE6A9A6E86B989BA0AC304B /* Pods-Somnos.release.xcconfig */,
+				E4BEAA00752EF0CE396DA26E /* Pods-Somnos-SomnosUITests.debug.xcconfig */,
+				E99CE7B746B06FF408394914 /* Pods-Somnos-SomnosUITests.release.xcconfig */,
+				E63EC9358B30F95A27EDFEE2 /* Pods-SomnosTests.debug.xcconfig */,
+				126C60B845C1868BAF9DCD45 /* Pods-SomnosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83AA19AC27D995A900DE280B /* Build configuration list for PBXNativeTarget "Somnos" */;
 			buildPhases = (
+				9BB365FD543A856D406D95FF /* [CP] Check Pods Manifest.lock */,
 				83AA197E27D995A800DE280B /* Sources */,
 				83AA197F27D995A800DE280B /* Frameworks */,
 				83AA198027D995A800DE280B /* Resources */,
+				FEF70371DDCC638217BB6F2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +235,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83AA19AF27D995A900DE280B /* Build configuration list for PBXNativeTarget "SomnosTests" */;
 			buildPhases = (
+				A1A0E0AD1CD69DF2CFE5ECDD /* [CP] Check Pods Manifest.lock */,
 				83AA199427D995A900DE280B /* Sources */,
 				83AA199527D995A900DE280B /* Frameworks */,
 				83AA199627D995A900DE280B /* Resources */,
@@ -170,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83AA19B227D995A900DE280B /* Build configuration list for PBXNativeTarget "SomnosUITests" */;
 			buildPhases = (
+				043059004ACFA485C06D9EB0 /* [CP] Check Pods Manifest.lock */,
 				83AA199F27D995A900DE280B /* Sources */,
 				83AA19A027D995A900DE280B /* Frameworks */,
 				83AA19A127D995A900DE280B /* Resources */,
+				E49D326EDC66DFB520CC66ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +317,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83AA199227D995A900DE280B /* LaunchScreen.storyboard in Resources */,
+				839F6BFE27E2F9B200537758 /* illuminate.mp3 in Resources */,
+				839F6C0027E2F9CA00537758 /* stargaze.mp3 in Resources */,
+				839F6BF427E2F89400537758 /* radar.mp3 in Resources */,
 				83AA198F27D995A900DE280B /* Assets.xcassets in Resources */,
+				839F6BF627E2F93B00537758 /* apex.mp3 in Resources */,
+				839F6BF827E2F94100537758 /* beacon.mp3 in Resources */,
+				839F6BFC27E2F99200537758 /* signal.mp3 in Resources */,
+				839F6BFA27E2F97300537758 /* circuit.mp3 in Resources */,
+				83AA19B627D9998700DE280B /* Launch Screen.storyboard in Resources */,
 				83AA198D27D995A800DE280B /* Main.storyboard in Resources */,
+				839F6BEE27E1273500537758 /* bleep.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +347,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		043059004ACFA485C06D9EB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Somnos-SomnosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BB365FD543A856D406D95FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Somnos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A0E0AD1CD69DF2CFE5ECDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SomnosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E49D326EDC66DFB520CC66ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Somnos-SomnosUITests/Pods-Somnos-SomnosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Somnos-SomnosUITests/Pods-Somnos-SomnosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Somnos-SomnosUITests/Pods-Somnos-SomnosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF70371DDCC638217BB6F2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Somnos/Pods-Somnos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Somnos/Pods-Somnos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Somnos/Pods-Somnos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83AA197E27D995A800DE280B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839F6BE927E07F9F00537758 /* ChangeRingtoneViewController.swift in Sources */,
+				839F6BF227E1D01E00537758 /* TableViewController.swift in Sources */,
 				83AA198A27D995A800DE280B /* ViewController.swift in Sources */,
 				83AA198627D995A800DE280B /* AppDelegate.swift in Sources */,
+				839F6BEB27E07FE400537758 /* AboutViewController.swift in Sources */,
 				83AA198827D995A800DE280B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,14 +502,6 @@
 				83AA198C27D995A800DE280B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		83AA199027D995A900DE280B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83AA199127D995A900DE280B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -433,6 +625,7 @@
 		};
 		83AA19AD27D995A900DE280B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280D121F5F5051CB7446916E /* Pods-Somnos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +645,7 @@
 		};
 		83AA19AE27D995A900DE280B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE6A9A6E86B989BA0AC304B /* Pods-Somnos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +665,7 @@
 		};
 		83AA19B027D995A900DE280B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E63EC9358B30F95A27EDFEE2 /* Pods-SomnosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +688,7 @@
 		};
 		83AA19B127D995A900DE280B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126C60B845C1868BAF9DCD45 /* Pods-SomnosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +711,7 @@
 		};
 		83AA19B327D995A900DE280B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4BEAA00752EF0CE396DA26E /* Pods-Somnos-SomnosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +732,7 @@
 		};
 		83AA19B427D995A900DE280B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99CE7B746B06FF408394914 /* Pods-Somnos-SomnosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
