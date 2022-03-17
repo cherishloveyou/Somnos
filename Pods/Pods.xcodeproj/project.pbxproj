@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		057B453F4AE14D10EA77D38FA1A0B8FB /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB12B697C383FA2ADDB73ADE64AA65 /* SideMenuPresentationController.swift */; };
+		1F0DDBBAF86A028D6D60A7E10B4D3634 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 425408FAE576E275F18742A28ACB1D79 /* SideMenu-dummy.m */; };
+		232B00330A1B08DA73EBBA4AE95EABD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		29B9C552848A5AF643991439834E38F7 /* Pods-Somnos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF39D52FD44F2F3601BEBA49A481DE2 /* Pods-Somnos-dummy.m */; };
+		3817F4830A10E51D20B72530EF6A56D2 /* SideMenuTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E20D510F5321F5A5B93895BB024107 /* SideMenuTransitionController.swift */; };
+		544AB83FB3913B4F406C4BFE071637BC /* Pods-SomnosTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4359CDB39E4443328763BA790C4769D9 /* Pods-SomnosTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		549A66010B6B909D7AB7CB20F124AC24 /* Pods-SomnosTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C08EB7B22311A35B529B9884F2E4D52A /* Pods-SomnosTests-dummy.m */; };
+		5587C359D9C8789950E7F6585C2292E7 /* SideMenuPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336532C8255035046D3782BC026E29D6 /* SideMenuPresentationStyle.swift */; };
+		736AA5A855A86426E4E4E5F05C0D1C5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		74106BDED4B8B2281DFE4BE5E109D847 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E73D1242A5DD0CE8740AAF02AF8CE8 /* Initializable.swift */; };
+		81A41BA8976BFB9DFDDD6BC8CD0B6FEF /* Pods-Somnos-SomnosUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B428A3F865C99B0336DE85698D8A98A /* Pods-Somnos-SomnosUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		887D7E546D6837CC964318D1B0C842D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		96985A679DFCD76FF2C68A93A7EB408E /* Pods-Somnos-SomnosUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC69454A4BFBACD12A561073E883B1B /* Pods-Somnos-SomnosUITests-dummy.m */; };
+		9E9F19E0120EA3C46967C28E637F52C8 /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553C9004629651B44F4DF3DFCBCEAB2 /* SideMenuNavigationController.swift */; };
+		B0AEEEE0AFCE5B1B37F0855CDEC61FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B804587E525773FCA9698855B2C752DC /* SideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7393E935111C615821A2A2C2C27599 /* SideMenuAnimationController.swift */; };
+		BC9C2E663681EDDBFE985034DCC7AAAF /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173C241A22D6F9C5F65F49440B19A5DF /* UITableViewVibrantCell.swift */; };
+		BE79F903F87E7D5918C6414E6203743E /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742042316473BB12E0D007A30360AF66 /* Print.swift */; };
+		D3BE0026C39E4B360BBDA0D5C57DD25D /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A586D752EF127FC1C53D7F6BA8926CE /* Deprecations.swift */; };
+		DAD5950A205347FCDBD3751604472431 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1E87825FD4E82FB5B9139F6CF313B0 /* Protected.swift */; };
+		E13EAEC23B4500EB07602B9364F933A0 /* Pods-Somnos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5716CAEDF6331757BD9B6189C6A436 /* Pods-Somnos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56EEF71CC5AF0DA40228F2CA67B4BA0 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E35D83E3ED842234225B76D9BF20588 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E709C98B763E8065628D8E88715E0BF8 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEA7210FF04957212F4255F9214712 /* SideMenuManager.swift */; };
+		E72252B09CC270B50217CA6AEABD620A /* SideMenuPushCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C505F14AA1B56CEB9056F4714205BA7 /* SideMenuPushCoordinator.swift */; };
+		E97C7A323474D0205E872AE7BC773650 /* SideMenuInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB499A17C3DAFFAC2BF9CFBE871C4AC /* SideMenuInteractionController.swift */; };
+		F28D439429A375B6D4FCD037ED317CD6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A39949CB2D22CE930414F45CCFDFC /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96DEDAD99B067BBDA981C98BC7BB215C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
+			remoteInfo = SideMenu;
+		};
+		9F83ECEFB7C3D2B268A4DAB1A0263239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 673BB18AC1CAA446440A334D08986D26;
+			remoteInfo = "Pods-Somnos";
+		};
+		E90FF13B4BC192F4E5385E9A144B4610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
+			remoteInfo = SideMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7FD54B5154ED05971734A5F3DEE517 /* Pods-Somnos-SomnosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Somnos-SomnosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D2BC656A953F975AE043A119E0C9C9F /* Pods-SomnosTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SomnosTests-Info.plist"; sourceTree = "<group>"; };
+		0E5084CDBD6EF57AC95465E86D1E9663 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		173C241A22D6F9C5F65F49440B19A5DF /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		27869986A6717FF7B7DABA8C8E76849F /* SideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.debug.xcconfig; sourceTree = "<group>"; };
+		2A5A32555BE8FC4F3F0FFF4BE7D2E917 /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
+		2DBDDAC969E822E7966E817E27A45523 /* Pods-SomnosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SomnosTests.release.xcconfig"; sourceTree = "<group>"; };
+		319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		336532C8255035046D3782BC026E29D6 /* SideMenuPresentationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationStyle.swift; path = Pod/Classes/SideMenuPresentationStyle.swift; sourceTree = "<group>"; };
+		3A586D752EF127FC1C53D7F6BA8926CE /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
+		3A7C015F16AB790A702F3D72E8E3CCFC /* Pods-Somnos-SomnosUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Somnos-SomnosUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C052868DAB1602ECF81276EE5C49EDF /* Pods-Somnos-SomnosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Somnos-SomnosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E35D83E3ED842234225B76D9BF20588 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		425408FAE576E275F18742A28ACB1D79 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		4359CDB39E4443328763BA790C4769D9 /* Pods-SomnosTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SomnosTests-umbrella.h"; sourceTree = "<group>"; };
+		47E73D1242A5DD0CE8740AAF02AF8CE8 /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
+		4FC69454A4BFBACD12A561073E883B1B /* Pods-Somnos-SomnosUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Somnos-SomnosUITests-dummy.m"; sourceTree = "<group>"; };
+		52F9E5A945B96149FD854C3F6B21C821 /* Pods-Somnos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Somnos.release.xcconfig"; sourceTree = "<group>"; };
+		57FD85442AB2A750B8B12454D940A23D /* Pods-Somnos-SomnosUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Somnos-SomnosUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6737FA483C44C92143422A5CE2F5EF09 /* Pods-Somnos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Somnos-Info.plist"; sourceTree = "<group>"; };
+		6A6BB8EF56D0E0466836E1491588D99F /* Pods-Somnos-SomnosUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Somnos-SomnosUITests"; path = Pods_Somnos_SomnosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C505F14AA1B56CEB9056F4714205BA7 /* SideMenuPushCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPushCoordinator.swift; path = Pod/Classes/SideMenuPushCoordinator.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		742042316473BB12E0D007A30360AF66 /* Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Print.swift; path = Pod/Classes/Print.swift; sourceTree = "<group>"; };
+		8B428A3F865C99B0336DE85698D8A98A /* Pods-Somnos-SomnosUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Somnos-SomnosUITests-umbrella.h"; sourceTree = "<group>"; };
+		8DB499A17C3DAFFAC2BF9CFBE871C4AC /* SideMenuInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuInteractionController.swift; path = Pod/Classes/SideMenuInteractionController.swift; sourceTree = "<group>"; };
+		904A39949CB2D22CE930414F45CCFDFC /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Pod/Classes/Extensions.swift; sourceTree = "<group>"; };
+		94CE645C938DBD5A6FDFFE79D4CBA57E /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEB12B697C383FA2ADDB73ADE64AA65 /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationController.swift; path = Pod/Classes/SideMenuPresentationController.swift; sourceTree = "<group>"; };
+		AACB6C03A21CD56B1DEE288262368B9F /* Pods-Somnos-SomnosUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Somnos-SomnosUITests-Info.plist"; sourceTree = "<group>"; };
+		ABCA8565F4773561F45C4C4553FE852D /* Pods-Somnos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Somnos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B199C2CF9858B6A60F0578206E1159C1 /* Pods-Somnos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Somnos.debug.xcconfig"; sourceTree = "<group>"; };
+		BA5716CAEDF6331757BD9B6189C6A436 /* Pods-Somnos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Somnos-umbrella.h"; sourceTree = "<group>"; };
+		BC7393E935111C615821A2A2C2C27599 /* SideMenuAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuAnimationController.swift; path = Pod/Classes/SideMenuAnimationController.swift; sourceTree = "<group>"; };
+		BFF39D52FD44F2F3601BEBA49A481DE2 /* Pods-Somnos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Somnos-dummy.m"; sourceTree = "<group>"; };
+		C08EB7B22311A35B529B9884F2E4D52A /* Pods-SomnosTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SomnosTests-dummy.m"; sourceTree = "<group>"; };
+		C14B0EA4F46A87135200F20D0AA4D57C /* Pods-SomnosTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SomnosTests"; path = Pods_SomnosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3033E271F4C77E734A0BC4C97967FDE /* Pods-Somnos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Somnos-acknowledgements.plist"; sourceTree = "<group>"; };
+		C33180A80400EF36F97F5DFFF23B533C /* Pods-SomnosTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SomnosTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3DEA7210FF04957212F4255F9214712 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		C8669D58BE0A291FFCF39D8160CDAE83 /* Pods-SomnosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SomnosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB1AD922B9324231B8F3C661CB2271AD /* Pods-Somnos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Somnos-frameworks.sh"; sourceTree = "<group>"; };
+		D0FD06A215F5D3A5801F1B29F0050370 /* Pods-SomnosTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SomnosTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D49F8E079869314CD83E6047F7507E06 /* Pods-Somnos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Somnos.modulemap"; sourceTree = "<group>"; };
+		D553C9004629651B44F4DF3DFCBCEAB2 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuNavigationController.swift; path = Pod/Classes/SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		E51D85AA21E9DB58A95749C766F91FB8 /* Pods-Somnos-SomnosUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Somnos-SomnosUITests.modulemap"; sourceTree = "<group>"; };
+		E75C9A0219FA9A8549608180036A1055 /* Pods_Somnos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Somnos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1E87825FD4E82FB5B9139F6CF313B0 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Pod/Classes/Protected.swift; sourceTree = "<group>"; };
+		F172647B2CF88AC734CECA9DCD238B74 /* Pods-SomnosTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SomnosTests.modulemap"; sourceTree = "<group>"; };
+		F2E20D510F5321F5A5B93895BB024107 /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransitionController.swift; path = Pod/Classes/SideMenuTransitionController.swift; sourceTree = "<group>"; };
+		F49C20F07099702B7A633B2A1AF74254 /* Pods-Somnos-SomnosUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Somnos-SomnosUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF57F96165F734C1F5A2962F67A97946 /* SideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DC25AA7986F2BF0AC82E6132A31A66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887D7E546D6837CC964318D1B0C842D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB7C73B35AA92674FCE2C5B4AB04FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232B00330A1B08DA73EBBA4AE95EABD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD03AF20CE51D6494654248D1D2F90ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AEEEE0AFCE5B1B37F0855CDEC61FC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE24E2796DD0E542F281DA89DE5D934B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736AA5A855A86426E4E4E5F05C0D1C5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D6C577698DBD59F5D0CED2BEF80C5C1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43865942EEF06A36D27F5507676B7E70 /* Pods-Somnos */,
+				D6F6FA4C8D2C06C1B485F2F211A94B23 /* Pods-Somnos-SomnosUITests */,
+				6AA5FBC6B2A24E96B834CF516598756A /* Pods-SomnosTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		43865942EEF06A36D27F5507676B7E70 /* Pods-Somnos */ = {
+			isa = PBXGroup;
+			children = (
+				D49F8E079869314CD83E6047F7507E06 /* Pods-Somnos.modulemap */,
+				ABCA8565F4773561F45C4C4553FE852D /* Pods-Somnos-acknowledgements.markdown */,
+				C3033E271F4C77E734A0BC4C97967FDE /* Pods-Somnos-acknowledgements.plist */,
+				BFF39D52FD44F2F3601BEBA49A481DE2 /* Pods-Somnos-dummy.m */,
+				CB1AD922B9324231B8F3C661CB2271AD /* Pods-Somnos-frameworks.sh */,
+				6737FA483C44C92143422A5CE2F5EF09 /* Pods-Somnos-Info.plist */,
+				BA5716CAEDF6331757BD9B6189C6A436 /* Pods-Somnos-umbrella.h */,
+				B199C2CF9858B6A60F0578206E1159C1 /* Pods-Somnos.debug.xcconfig */,
+				52F9E5A945B96149FD854C3F6B21C821 /* Pods-Somnos.release.xcconfig */,
+			);
+			name = "Pods-Somnos";
+			path = "Target Support Files/Pods-Somnos";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D152EE74A570F0B25A460D28409B756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75C9A0219FA9A8549608180036A1055 /* Pods_Somnos.framework */,
+				6A6BB8EF56D0E0466836E1491588D99F /* Pods-Somnos-SomnosUITests */,
+				C14B0EA4F46A87135200F20D0AA4D57C /* Pods-SomnosTests */,
+				319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AA5FBC6B2A24E96B834CF516598756A /* Pods-SomnosTests */ = {
+			isa = PBXGroup;
+			children = (
+				F172647B2CF88AC734CECA9DCD238B74 /* Pods-SomnosTests.modulemap */,
+				C33180A80400EF36F97F5DFFF23B533C /* Pods-SomnosTests-acknowledgements.markdown */,
+				D0FD06A215F5D3A5801F1B29F0050370 /* Pods-SomnosTests-acknowledgements.plist */,
+				C08EB7B22311A35B529B9884F2E4D52A /* Pods-SomnosTests-dummy.m */,
+				0D2BC656A953F975AE043A119E0C9C9F /* Pods-SomnosTests-Info.plist */,
+				4359CDB39E4443328763BA790C4769D9 /* Pods-SomnosTests-umbrella.h */,
+				C8669D58BE0A291FFCF39D8160CDAE83 /* Pods-SomnosTests.debug.xcconfig */,
+				2DBDDAC969E822E7966E817E27A45523 /* Pods-SomnosTests.release.xcconfig */,
+			);
+			name = "Pods-SomnosTests";
+			path = "Target Support Files/Pods-SomnosTests";
+			sourceTree = "<group>";
+		};
+		9FAB51D81F7EF7D713407A42705C44E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E5084CDBD6EF57AC95465E86D1E9663 /* SideMenu.modulemap */,
+				425408FAE576E275F18742A28ACB1D79 /* SideMenu-dummy.m */,
+				2A5A32555BE8FC4F3F0FFF4BE7D2E917 /* SideMenu-Info.plist */,
+				94CE645C938DBD5A6FDFFE79D4CBA57E /* SideMenu-prefix.pch */,
+				3E35D83E3ED842234225B76D9BF20588 /* SideMenu-umbrella.h */,
+				27869986A6717FF7B7DABA8C8E76849F /* SideMenu.debug.xcconfig */,
+				FF57F96165F734C1F5A2962F67A97946 /* SideMenu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E2DDCB5B9374EA51AED9CEDA1B32D75B /* Pods */,
+				5D152EE74A570F0B25A460D28409B756 /* Products */,
+				3D6C577698DBD59F5D0CED2BEF80C5C1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6F6FA4C8D2C06C1B485F2F211A94B23 /* Pods-Somnos-SomnosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E51D85AA21E9DB58A95749C766F91FB8 /* Pods-Somnos-SomnosUITests.modulemap */,
+				3A7C015F16AB790A702F3D72E8E3CCFC /* Pods-Somnos-SomnosUITests-acknowledgements.markdown */,
+				F49C20F07099702B7A633B2A1AF74254 /* Pods-Somnos-SomnosUITests-acknowledgements.plist */,
+				4FC69454A4BFBACD12A561073E883B1B /* Pods-Somnos-SomnosUITests-dummy.m */,
+				57FD85442AB2A750B8B12454D940A23D /* Pods-Somnos-SomnosUITests-frameworks.sh */,
+				AACB6C03A21CD56B1DEE288262368B9F /* Pods-Somnos-SomnosUITests-Info.plist */,
+				8B428A3F865C99B0336DE85698D8A98A /* Pods-Somnos-SomnosUITests-umbrella.h */,
+				0C7FD54B5154ED05971734A5F3DEE517 /* Pods-Somnos-SomnosUITests.debug.xcconfig */,
+				3C052868DAB1602ECF81276EE5C49EDF /* Pods-Somnos-SomnosUITests.release.xcconfig */,
+			);
+			name = "Pods-Somnos-SomnosUITests";
+			path = "Target Support Files/Pods-Somnos-SomnosUITests";
+			sourceTree = "<group>";
+		};
+		E2DDCB5B9374EA51AED9CEDA1B32D75B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCA3F2E8C2D647DE9F607C41AF148201 /* SideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCA3F2E8C2D647DE9F607C41AF148201 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3A586D752EF127FC1C53D7F6BA8926CE /* Deprecations.swift */,
+				904A39949CB2D22CE930414F45CCFDFC /* Extensions.swift */,
+				47E73D1242A5DD0CE8740AAF02AF8CE8 /* Initializable.swift */,
+				742042316473BB12E0D007A30360AF66 /* Print.swift */,
+				ED1E87825FD4E82FB5B9139F6CF313B0 /* Protected.swift */,
+				BC7393E935111C615821A2A2C2C27599 /* SideMenuAnimationController.swift */,
+				8DB499A17C3DAFFAC2BF9CFBE871C4AC /* SideMenuInteractionController.swift */,
+				C3DEA7210FF04957212F4255F9214712 /* SideMenuManager.swift */,
+				D553C9004629651B44F4DF3DFCBCEAB2 /* SideMenuNavigationController.swift */,
+				9DEB12B697C383FA2ADDB73ADE64AA65 /* SideMenuPresentationController.swift */,
+				336532C8255035046D3782BC026E29D6 /* SideMenuPresentationStyle.swift */,
+				6C505F14AA1B56CEB9056F4714205BA7 /* SideMenuPushCoordinator.swift */,
+				F2E20D510F5321F5A5B93895BB024107 /* SideMenuTransitionController.swift */,
+				173C241A22D6F9C5F65F49440B19A5DF /* UITableViewVibrantCell.swift */,
+				9FAB51D81F7EF7D713407A42705C44E8 /* Support Files */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00DD49B77C57007B7893A770B7F35838 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81A41BA8976BFB9DFDDD6BC8CD0B6FEF /* Pods-Somnos-SomnosUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0906DD84FF77E4717DC055EF18469F5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13EAEC23B4500EB07602B9364F933A0 /* Pods-Somnos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6966941B0FB59D2901F7E3FBE63541EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544AB83FB3913B4F406C4BFE071637BC /* Pods-SomnosTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808B3C78170DE39A17382B38756CAA06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56EEF71CC5AF0DA40228F2CA67B4BA0 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BCAA5F09D24820F2671859A669A7F25 /* Pods-SomnosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB82CB59601BF0AC7D05DEED9D5CE035 /* Build configuration list for PBXNativeTarget "Pods-SomnosTests" */;
+			buildPhases = (
+				6966941B0FB59D2901F7E3FBE63541EF /* Headers */,
+				2B4141959A6668F3B10A4ABDAF4B180B /* Sources */,
+				CD03AF20CE51D6494654248D1D2F90ED /* Frameworks */,
+				73EC8D6538B263742DACD7F560F8A71C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D8570959DFA7D7E2C63697B9C8DE4D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SomnosTests";
+			productName = Pods_SomnosTests;
+			productReference = C14B0EA4F46A87135200F20D0AA4D57C /* Pods-SomnosTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		673BB18AC1CAA446440A334D08986D26 /* Pods-Somnos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEE37B47DF58D6EE677478B4FC63271 /* Build configuration list for PBXNativeTarget "Pods-Somnos" */;
+			buildPhases = (
+				0906DD84FF77E4717DC055EF18469F5B /* Headers */,
+				A742DC1EE6B1898BA770FF22E00B059C /* Sources */,
+				EE24E2796DD0E542F281DA89DE5D934B /* Frameworks */,
+				37523218F5371AD46FAB5B6FBF30E80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B927E971C63624879B49D716D7E4A6E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Somnos";
+			productName = Pods_Somnos;
+			productReference = E75C9A0219FA9A8549608180036A1055 /* Pods_Somnos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4E63BB43B7167D15C142EB405422643 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				808B3C78170DE39A17382B38756CAA06 /* Headers */,
+				67D65F22C5D7053A68ADB3533240B850 /* Sources */,
+				5DC25AA7986F2BF0AC82E6132A31A66D /* Frameworks */,
+				C35CA0EF3E2BEED48FF33721BDC0D000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = 319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FABDEA02BE507F10C020B9DF33D80C4A /* Pods-Somnos-SomnosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFD13F8D46D2D0EC7DBB0906372BCF4 /* Build configuration list for PBXNativeTarget "Pods-Somnos-SomnosUITests" */;
+			buildPhases = (
+				00DD49B77C57007B7893A770B7F35838 /* Headers */,
+				5CF510C4B8C7D119CF92443407537006 /* Sources */,
+				CAB7C73B35AA92674FCE2C5B4AB04FEF /* Frameworks */,
+				A0FA48F8430B07D140CE802F35C22F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E838490AEEC36D8A60840325F2F51E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Somnos-SomnosUITests";
+			productName = Pods_Somnos_SomnosUITests;
+			productReference = 6A6BB8EF56D0E0466836E1491588D99F /* Pods-Somnos-SomnosUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5D152EE74A570F0B25A460D28409B756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				673BB18AC1CAA446440A334D08986D26 /* Pods-Somnos */,
+				FABDEA02BE507F10C020B9DF33D80C4A /* Pods-Somnos-SomnosUITests */,
+				1BCAA5F09D24820F2671859A669A7F25 /* Pods-SomnosTests */,
+				C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37523218F5371AD46FAB5B6FBF30E80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EC8D6538B263742DACD7F560F8A71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FA48F8430B07D140CE802F35C22F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35CA0EF3E2BEED48FF33721BDC0D000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4141959A6668F3B10A4ABDAF4B180B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				549A66010B6B909D7AB7CB20F124AC24 /* Pods-SomnosTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF510C4B8C7D119CF92443407537006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96985A679DFCD76FF2C68A93A7EB408E /* Pods-Somnos-SomnosUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D65F22C5D7053A68ADB3533240B850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3BE0026C39E4B360BBDA0D5C57DD25D /* Deprecations.swift in Sources */,
+				F28D439429A375B6D4FCD037ED317CD6 /* Extensions.swift in Sources */,
+				74106BDED4B8B2281DFE4BE5E109D847 /* Initializable.swift in Sources */,
+				BE79F903F87E7D5918C6414E6203743E /* Print.swift in Sources */,
+				DAD5950A205347FCDBD3751604472431 /* Protected.swift in Sources */,
+				1F0DDBBAF86A028D6D60A7E10B4D3634 /* SideMenu-dummy.m in Sources */,
+				B804587E525773FCA9698855B2C752DC /* SideMenuAnimationController.swift in Sources */,
+				E97C7A323474D0205E872AE7BC773650 /* SideMenuInteractionController.swift in Sources */,
+				E709C98B763E8065628D8E88715E0BF8 /* SideMenuManager.swift in Sources */,
+				9E9F19E0120EA3C46967C28E637F52C8 /* SideMenuNavigationController.swift in Sources */,
+				057B453F4AE14D10EA77D38FA1A0B8FB /* SideMenuPresentationController.swift in Sources */,
+				5587C359D9C8789950E7F6585C2292E7 /* SideMenuPresentationStyle.swift in Sources */,
+				E72252B09CC270B50217CA6AEABD620A /* SideMenuPushCoordinator.swift in Sources */,
+				3817F4830A10E51D20B72530EF6A56D2 /* SideMenuTransitionController.swift in Sources */,
+				BC9C2E663681EDDBFE985034DCC7AAAF /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A742DC1EE6B1898BA770FF22E00B059C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B9C552848A5AF643991439834E38F7 /* Pods-Somnos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E838490AEEC36D8A60840325F2F51E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = 96DEDAD99B067BBDA981C98BC7BB215C /* PBXContainerItemProxy */;
+		};
+		7D8570959DFA7D7E2C63697B9C8DE4D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Somnos";
+			target = 673BB18AC1CAA446440A334D08986D26 /* Pods-Somnos */;
+			targetProxy = 9F83ECEFB7C3D2B268A4DAB1A0263239 /* PBXContainerItemProxy */;
+		};
+		B927E971C63624879B49D716D7E4A6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = E90FF13B4BC192F4E5385E9A144B4610 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46BFE2312ECDC35BEC02D94DC5B60F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF57F96165F734C1F5A2962F67A97946 /* SideMenu.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6672C5BA63414B786A4F280EC8963C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C7FD54B5154ED05971734A5F3DEE517 /* Pods-Somnos-SomnosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Somnos-SomnosUITests/Pods-Somnos-SomnosUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Somnos-SomnosUITests/Pods-Somnos-SomnosUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90CE7C171B8541FEF745FEECDD39CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F9E5A945B96149FD854C3F6B21C821 /* Pods-Somnos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Somnos/Pods-Somnos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Somnos/Pods-Somnos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E0C37648D76E361234D07CA876D0358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27869986A6717FF7B7DABA8C8E76849F /* SideMenu.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB8E2C8F07DCC55022B692CD938B5737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBDDAC969E822E7966E817E27A45523 /* Pods-SomnosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SomnosTests/Pods-SomnosTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SomnosTests/Pods-SomnosTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB27166DA03A262449A9902C1DC75E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B199C2CF9858B6A60F0578206E1159C1 /* Pods-Somnos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Somnos/Pods-Somnos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Somnos/Pods-Somnos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE2A4DB718CAC3A93B08BC77F8A6EA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8669D58BE0A291FFCF39D8160CDAE83 /* Pods-SomnosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SomnosTests/Pods-SomnosTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SomnosTests/Pods-SomnosTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EA9FE2141AFBC85FC8F8FE3F92802B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C052868DAB1602ECF81276EE5C49EDF /* Pods-Somnos-SomnosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Somnos-SomnosUITests/Pods-Somnos-SomnosUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Somnos-SomnosUITests/Pods-Somnos-SomnosUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AFD13F8D46D2D0EC7DBB0906372BCF4 /* Build configuration list for PBXNativeTarget "Pods-Somnos-SomnosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6672C5BA63414B786A4F280EC8963C01 /* Debug */,
+				EA9FE2141AFBC85FC8F8FE3F92802B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4E63BB43B7167D15C142EB405422643 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0C37648D76E361234D07CA876D0358 /* Debug */,
+				46BFE2312ECDC35BEC02D94DC5B60F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB82CB59601BF0AC7D05DEED9D5CE035 /* Build configuration list for PBXNativeTarget "Pods-SomnosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2A4DB718CAC3A93B08BC77F8A6EA81 /* Debug */,
+				AB8E2C8F07DCC55022B692CD938B5737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEE37B47DF58D6EE677478B4FC63271 /* Build configuration list for PBXNativeTarget "Pods-Somnos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB27166DA03A262449A9902C1DC75E76 /* Debug */,
+				90CE7C171B8541FEF745FEECDD39CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
