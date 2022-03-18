@@ -26,7 +26,7 @@ public func playSound() {
         player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
         
         guard let player = player else { return }
-        player.numberOfLoops = 3
+        player.numberOfLoops = 2
         player.setVolume(75, fadeDuration: 1)
         
         player.play()
@@ -60,7 +60,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
     var onCooldown = false
     
     //timer variables
-    
     @IBOutlet weak var timerLabel: UILabel!
     var timer = Timer()
     var count = 0
@@ -69,7 +68,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
     //constants
     let threshold: Float = 10
     
-    // MARK: Debuggers
+    // MARK: Debuggers (Remove)
     @IBOutlet weak var testLabel: UILabel!
     
     
@@ -211,7 +210,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
     
     // MARK: - Blink Check Function
     func expression(anchor: ARFaceAnchor) {
-        print(checkFaceStatus(anchor: anchor))
+        //print(checkFaceStatus(anchor: anchor))
         let blinkRight = anchor.blendShapes[.eyeBlinkLeft]
         let blinkLeft = anchor.blendShapes[.eyeBlinkRight]
         let Lval = Double(truncating: blinkLeft ?? 0.0)
@@ -264,12 +263,12 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
     }
     
     //MARK: Light & Face Status Function
-    func checkFaceStatus (anchor: ARFaceAnchor) -> String {
-        var status = ""
+    func checkFaceStatus (anchor: ARFaceAnchor) /* -> String */ {
+        //var status = ""
         // move the light estimation to another
         let frame = sceneView.session.currentFrame
         let lightEstimate = Int (frame?.lightEstimate?.ambientIntensity ?? 0)
-        print("Lightestimate:\(lightEstimate)")
+        //print("Lightestimate:\(lightEstimate)")
         
         if (lightEstimate < 50) {
             //print("Lighting is too dark")
@@ -278,7 +277,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
             light = true
         }
         
-        if (!light && !onCooldown){
+        /*if (!light && !onCooldown){
             onCooldown = true
             let seconds = 2.5
             DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
@@ -287,11 +286,32 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
                     playSound()
                 }
                 self.onCooldown = false
+            }*/
+        
+        if (!onCooldown){
+            onCooldown = true
+            let seconds = 2.5
+            DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
+                print("a");
+                print(self.light)
+                playSound()
+                print(light)
+                print(onCooldown)
+                print(self.onCooldown)
+                if (!self.light){
+                    print("It's too dark")
+                    playSound()
+                }
+                if (!anchor.isTracked) {
+                    print("reposition")
+                    playSound()
+                }
+                self.onCooldown = false
             }
         }
         
-        status = anchor.isTracked ? "Tracking working" : "Reposition"
-        return status
+        //status = anchor.isTracked ? "Tracking working" : "Reposition"
+        //return status
     }
     
     

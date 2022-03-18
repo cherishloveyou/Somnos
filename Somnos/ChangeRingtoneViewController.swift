@@ -84,49 +84,41 @@ class ChangeRingtoneViewController: UIViewController, UITableViewDelegate, UITab
         
         case 0:
             selectedSound = "bleep"
-            playSound()
             print("BUTTON PRESSED")
 
             
         case 1 :
             selectedSound = "radar"
-            playSound()
             print("BUTTON PRESSED")
 
     
         case 2:
             selectedSound = ""
-            playSound()
             print("BUTTON PRESSED")
 
             
         case 3 :
             selectedSound = "beacon"
-            playSound()
             print("BUTTON PRESSED")
 
             
         case 4 :
             selectedSound = "circuit"
-            playSound()
             print("BUTTON PRESSED")
 
             
         case 5 :
             selectedSound = "illuminate"
-            playSound()
             print("BUTTON PRESSED")
 
             
         case 6 :
             selectedSound = "signal"
-            playSound()
             print("BUTTON PRESSED")
 
             
         case 7 :
             selectedSound = "stargaze"
-            playSound()
             print("BUTTON PRESSED")
             
         default:
@@ -135,7 +127,7 @@ class ChangeRingtoneViewController: UIViewController, UITableViewDelegate, UITab
         
         tableView.deselectRow(at: indexPath, animated: true)
         print(selectedSound)
-        
+        playSound()
     }
     
 }

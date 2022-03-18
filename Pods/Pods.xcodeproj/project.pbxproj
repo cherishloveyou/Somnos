@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		057B453F4AE14D10EA77D38FA1A0B8FB /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB12B697C383FA2ADDB73ADE64AA65 /* SideMenuPresentationController.swift */; };
-		1F0DDBBAF86A028D6D60A7E10B4D3634 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 425408FAE576E275F18742A28ACB1D79 /* SideMenu-dummy.m */; };
-		232B00330A1B08DA73EBBA4AE95EABD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		29B9C552848A5AF643991439834E38F7 /* Pods-Somnos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF39D52FD44F2F3601BEBA49A481DE2 /* Pods-Somnos-dummy.m */; };
-		3817F4830A10E51D20B72530EF6A56D2 /* SideMenuTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E20D510F5321F5A5B93895BB024107 /* SideMenuTransitionController.swift */; };
+		057B453F4AE14D10EA77D38FA1A0B8FB /* SideMenuPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA75D7F8119ABA5A3EF4AB757FE0EF /* SideMenuPresentationController.swift */; };
+		1F0DDBBAF86A028D6D60A7E10B4D3634 /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C723107D860DB31CABCD028704863BA8 /* SideMenu-dummy.m */; };
+		3817F4830A10E51D20B72530EF6A56D2 /* SideMenuTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296BE21FF7AAD7D19E6ED839F0804FC1 /* SideMenuTransitionController.swift */; };
 		544AB83FB3913B4F406C4BFE071637BC /* Pods-SomnosTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4359CDB39E4443328763BA790C4769D9 /* Pods-SomnosTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		549A66010B6B909D7AB7CB20F124AC24 /* Pods-SomnosTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C08EB7B22311A35B529B9884F2E4D52A /* Pods-SomnosTests-dummy.m */; };
-		5587C359D9C8789950E7F6585C2292E7 /* SideMenuPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336532C8255035046D3782BC026E29D6 /* SideMenuPresentationStyle.swift */; };
-		736AA5A855A86426E4E4E5F05C0D1C5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		74106BDED4B8B2281DFE4BE5E109D847 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E73D1242A5DD0CE8740AAF02AF8CE8 /* Initializable.swift */; };
-		81A41BA8976BFB9DFDDD6BC8CD0B6FEF /* Pods-Somnos-SomnosUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B428A3F865C99B0336DE85698D8A98A /* Pods-Somnos-SomnosUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5587C359D9C8789950E7F6585C2292E7 /* SideMenuPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1907B78B39DE0F0C6221B3F154AAC862 /* SideMenuPresentationStyle.swift */; };
+		5C880D312DF82CCDEE6A0B15A4294CF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F9EBC0E9EE2041760B64DB2C9416A88 /* Pods-Somnos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5716CAEDF6331757BD9B6189C6A436 /* Pods-Somnos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74106BDED4B8B2281DFE4BE5E109D847 /* Initializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B435A692AE8CB71108BC3C8B3E424BE1 /* Initializable.swift */; };
 		887D7E546D6837CC964318D1B0C842D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		96985A679DFCD76FF2C68A93A7EB408E /* Pods-Somnos-SomnosUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC69454A4BFBACD12A561073E883B1B /* Pods-Somnos-SomnosUITests-dummy.m */; };
-		9E9F19E0120EA3C46967C28E637F52C8 /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D553C9004629651B44F4DF3DFCBCEAB2 /* SideMenuNavigationController.swift */; };
+		97977DC83C3813B7DDD3F75A15081498 /* Pods-Somnos-SomnosUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B428A3F865C99B0336DE85698D8A98A /* Pods-Somnos-SomnosUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9F19E0120EA3C46967C28E637F52C8 /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4B80BD863C174D5427612E5FC99ED1 /* SideMenuNavigationController.swift */; };
+		ABD595955719FE02DBC3B79E1C967DCE /* Pods-Somnos-SomnosUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC69454A4BFBACD12A561073E883B1B /* Pods-Somnos-SomnosUITests-dummy.m */; };
 		B0AEEEE0AFCE5B1B37F0855CDEC61FC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B804587E525773FCA9698855B2C752DC /* SideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7393E935111C615821A2A2C2C27599 /* SideMenuAnimationController.swift */; };
-		BC9C2E663681EDDBFE985034DCC7AAAF /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173C241A22D6F9C5F65F49440B19A5DF /* UITableViewVibrantCell.swift */; };
-		BE79F903F87E7D5918C6414E6203743E /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742042316473BB12E0D007A30360AF66 /* Print.swift */; };
-		D3BE0026C39E4B360BBDA0D5C57DD25D /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A586D752EF127FC1C53D7F6BA8926CE /* Deprecations.swift */; };
-		DAD5950A205347FCDBD3751604472431 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1E87825FD4E82FB5B9139F6CF313B0 /* Protected.swift */; };
-		E13EAEC23B4500EB07602B9364F933A0 /* Pods-Somnos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5716CAEDF6331757BD9B6189C6A436 /* Pods-Somnos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E56EEF71CC5AF0DA40228F2CA67B4BA0 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E35D83E3ED842234225B76D9BF20588 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E709C98B763E8065628D8E88715E0BF8 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEA7210FF04957212F4255F9214712 /* SideMenuManager.swift */; };
-		E72252B09CC270B50217CA6AEABD620A /* SideMenuPushCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C505F14AA1B56CEB9056F4714205BA7 /* SideMenuPushCoordinator.swift */; };
-		E97C7A323474D0205E872AE7BC773650 /* SideMenuInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB499A17C3DAFFAC2BF9CFBE871C4AC /* SideMenuInteractionController.swift */; };
-		F28D439429A375B6D4FCD037ED317CD6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A39949CB2D22CE930414F45CCFDFC /* Extensions.swift */; };
+		B804587E525773FCA9698855B2C752DC /* SideMenuAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDB9B2576E9F7BC25C5B4B3ED9D9275 /* SideMenuAnimationController.swift */; };
+		BC9C2E663681EDDBFE985034DCC7AAAF /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C515B3D13887A728A453D7099F17D /* UITableViewVibrantCell.swift */; };
+		BD8208636651FF9A59CEB52CBBB96C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BE79F903F87E7D5918C6414E6203743E /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8A8B5179015129C9DC09887F8A8E0F /* Print.swift */; };
+		D3BE0026C39E4B360BBDA0D5C57DD25D /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E0EF1FE9720FBF7E95FDF1468E9464 /* Deprecations.swift */; };
+		DAD5950A205347FCDBD3751604472431 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F12E6E9DEC732642010364EE9795B /* Protected.swift */; };
+		DB174522C4A9A238B9A6757A6602AEBC /* Pods-Somnos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF39D52FD44F2F3601BEBA49A481DE2 /* Pods-Somnos-dummy.m */; };
+		E56EEF71CC5AF0DA40228F2CA67B4BA0 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEDAD33E39B2C6517EE2C665A844ABA /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E709C98B763E8065628D8E88715E0BF8 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D16C168F52FDF8EC2C45F49A36F215C /* SideMenuManager.swift */; };
+		E72252B09CC270B50217CA6AEABD620A /* SideMenuPushCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B007E87349E50118E13B294C1DF5CA0D /* SideMenuPushCoordinator.swift */; };
+		E97C7A323474D0205E872AE7BC773650 /* SideMenuInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF29DE67A5AA1D16125206E5A037E259 /* SideMenuInteractionController.swift */; };
+		F28D439429A375B6D4FCD037ED317CD6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD16025EBF0FAAFEC087DE312E58C8 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		96DEDAD99B067BBDA981C98BC7BB215C /* PBXContainerItemProxy */ = {
+		7893ED14997A427C225B735CB8965A3C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C4A0A7D8591B67FB75E2E8D215E3735B;
 			remoteInfo = SideMenu;
 		};
-		9F83ECEFB7C3D2B268A4DAB1A0263239 /* PBXContainerItemProxy */ = {
+		9B700ED51326B98ABE62D738B3C45B4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 673BB18AC1CAA446440A334D08986D26;
 			remoteInfo = "Pods-Somnos";
 		};
-		E90FF13B4BC192F4E5385E9A144B4610 /* PBXContainerItemProxy */ = {
+		ACB5C64333C9B3BE7951873C324F8053 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -62,57 +62,57 @@
 /* Begin PBXFileReference section */
 		0C7FD54B5154ED05971734A5F3DEE517 /* Pods-Somnos-SomnosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Somnos-SomnosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0D2BC656A953F975AE043A119E0C9C9F /* Pods-SomnosTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SomnosTests-Info.plist"; sourceTree = "<group>"; };
-		0E5084CDBD6EF57AC95465E86D1E9663 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
-		173C241A22D6F9C5F65F49440B19A5DF /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
-		27869986A6717FF7B7DABA8C8E76849F /* SideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.debug.xcconfig; sourceTree = "<group>"; };
-		2A5A32555BE8FC4F3F0FFF4BE7D2E917 /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
+		1907B78B39DE0F0C6221B3F154AAC862 /* SideMenuPresentationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationStyle.swift; path = Pod/Classes/SideMenuPresentationStyle.swift; sourceTree = "<group>"; };
+		296BE21FF7AAD7D19E6ED839F0804FC1 /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransitionController.swift; path = Pod/Classes/SideMenuTransitionController.swift; sourceTree = "<group>"; };
+		29DA75D7F8119ABA5A3EF4AB757FE0EF /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationController.swift; path = Pod/Classes/SideMenuPresentationController.swift; sourceTree = "<group>"; };
 		2DBDDAC969E822E7966E817E27A45523 /* Pods-SomnosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SomnosTests.release.xcconfig"; sourceTree = "<group>"; };
-		319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		336532C8255035046D3782BC026E29D6 /* SideMenuPresentationStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationStyle.swift; path = Pod/Classes/SideMenuPresentationStyle.swift; sourceTree = "<group>"; };
-		3A586D752EF127FC1C53D7F6BA8926CE /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
+		319D06AA0D1D0BA345459C039040A1ED /* SideMenu */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39731C041E2E77BC5245E8132FC071E0 /* SideMenu-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenu-Info.plist"; sourceTree = "<group>"; };
 		3A7C015F16AB790A702F3D72E8E3CCFC /* Pods-Somnos-SomnosUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Somnos-SomnosUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3C052868DAB1602ECF81276EE5C49EDF /* Pods-Somnos-SomnosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Somnos-SomnosUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3E35D83E3ED842234225B76D9BF20588 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
-		425408FAE576E275F18742A28ACB1D79 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
 		4359CDB39E4443328763BA790C4769D9 /* Pods-SomnosTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SomnosTests-umbrella.h"; sourceTree = "<group>"; };
-		47E73D1242A5DD0CE8740AAF02AF8CE8 /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
 		4FC69454A4BFBACD12A561073E883B1B /* Pods-Somnos-SomnosUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Somnos-SomnosUITests-dummy.m"; sourceTree = "<group>"; };
 		52F9E5A945B96149FD854C3F6B21C821 /* Pods-Somnos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Somnos.release.xcconfig"; sourceTree = "<group>"; };
 		57FD85442AB2A750B8B12454D940A23D /* Pods-Somnos-SomnosUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Somnos-SomnosUITests-frameworks.sh"; sourceTree = "<group>"; };
+		639605EE872C890DF7392A3818475BB5 /* SideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.release.xcconfig; sourceTree = "<group>"; };
 		6737FA483C44C92143422A5CE2F5EF09 /* Pods-Somnos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Somnos-Info.plist"; sourceTree = "<group>"; };
 		6A6BB8EF56D0E0466836E1491588D99F /* Pods-Somnos-SomnosUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Somnos-SomnosUITests"; path = Pods_Somnos_SomnosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C505F14AA1B56CEB9056F4714205BA7 /* SideMenuPushCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPushCoordinator.swift; path = Pod/Classes/SideMenuPushCoordinator.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		742042316473BB12E0D007A30360AF66 /* Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Print.swift; path = Pod/Classes/Print.swift; sourceTree = "<group>"; };
+		7D16C168F52FDF8EC2C45F49A36F215C /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
 		8B428A3F865C99B0336DE85698D8A98A /* Pods-Somnos-SomnosUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Somnos-SomnosUITests-umbrella.h"; sourceTree = "<group>"; };
-		8DB499A17C3DAFFAC2BF9CFBE871C4AC /* SideMenuInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuInteractionController.swift; path = Pod/Classes/SideMenuInteractionController.swift; sourceTree = "<group>"; };
-		904A39949CB2D22CE930414F45CCFDFC /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Pod/Classes/Extensions.swift; sourceTree = "<group>"; };
-		94CE645C938DBD5A6FDFFE79D4CBA57E /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DEB12B697C383FA2ADDB73ADE64AA65 /* SideMenuPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPresentationController.swift; path = Pod/Classes/SideMenuPresentationController.swift; sourceTree = "<group>"; };
+		8E4B80BD863C174D5427612E5FC99ED1 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuNavigationController.swift; path = Pod/Classes/SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1F12E6E9DEC732642010364EE9795B /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Pod/Classes/Protected.swift; sourceTree = "<group>"; };
 		AACB6C03A21CD56B1DEE288262368B9F /* Pods-Somnos-SomnosUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Somnos-SomnosUITests-Info.plist"; sourceTree = "<group>"; };
 		ABCA8565F4773561F45C4C4553FE852D /* Pods-Somnos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Somnos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE8A8B5179015129C9DC09887F8A8E0F /* Print.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Print.swift; path = Pod/Classes/Print.swift; sourceTree = "<group>"; };
+		B007E87349E50118E13B294C1DF5CA0D /* SideMenuPushCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuPushCoordinator.swift; path = Pod/Classes/SideMenuPushCoordinator.swift; sourceTree = "<group>"; };
 		B199C2CF9858B6A60F0578206E1159C1 /* Pods-Somnos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Somnos.debug.xcconfig"; sourceTree = "<group>"; };
+		B435A692AE8CB71108BC3C8B3E424BE1 /* Initializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Initializable.swift; path = Pod/Classes/Initializable.swift; sourceTree = "<group>"; };
+		B72C4994EA5E6719DEB95FF5415FB140 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		B741F11F3B190DB6E66E566ECF54FC35 /* SideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.debug.xcconfig; sourceTree = "<group>"; };
 		BA5716CAEDF6331757BD9B6189C6A436 /* Pods-Somnos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Somnos-umbrella.h"; sourceTree = "<group>"; };
-		BC7393E935111C615821A2A2C2C27599 /* SideMenuAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuAnimationController.swift; path = Pod/Classes/SideMenuAnimationController.swift; sourceTree = "<group>"; };
+		BA7C515B3D13887A728A453D7099F17D /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		BB7389E65A56B13A2B00F28FCEF9794F /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		BF29DE67A5AA1D16125206E5A037E259 /* SideMenuInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuInteractionController.swift; path = Pod/Classes/SideMenuInteractionController.swift; sourceTree = "<group>"; };
 		BFF39D52FD44F2F3601BEBA49A481DE2 /* Pods-Somnos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Somnos-dummy.m"; sourceTree = "<group>"; };
 		C08EB7B22311A35B529B9884F2E4D52A /* Pods-SomnosTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SomnosTests-dummy.m"; sourceTree = "<group>"; };
 		C14B0EA4F46A87135200F20D0AA4D57C /* Pods-SomnosTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SomnosTests"; path = Pods_SomnosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3033E271F4C77E734A0BC4C97967FDE /* Pods-Somnos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Somnos-acknowledgements.plist"; sourceTree = "<group>"; };
 		C33180A80400EF36F97F5DFFF23B533C /* Pods-SomnosTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SomnosTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C3DEA7210FF04957212F4255F9214712 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		C5E0EF1FE9720FBF7E95FDF1468E9464 /* Deprecations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecations.swift; path = Pod/Classes/Deprecations.swift; sourceTree = "<group>"; };
+		C723107D860DB31CABCD028704863BA8 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
 		C8669D58BE0A291FFCF39D8160CDAE83 /* Pods-SomnosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SomnosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CACD16025EBF0FAAFEC087DE312E58C8 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Pod/Classes/Extensions.swift; sourceTree = "<group>"; };
 		CB1AD922B9324231B8F3C661CB2271AD /* Pods-Somnos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Somnos-frameworks.sh"; sourceTree = "<group>"; };
 		D0FD06A215F5D3A5801F1B29F0050370 /* Pods-SomnosTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SomnosTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D49F8E079869314CD83E6047F7507E06 /* Pods-Somnos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Somnos.modulemap"; sourceTree = "<group>"; };
-		D553C9004629651B44F4DF3DFCBCEAB2 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuNavigationController.swift; path = Pod/Classes/SideMenuNavigationController.swift; sourceTree = "<group>"; };
+		DEDB9B2576E9F7BC25C5B4B3ED9D9275 /* SideMenuAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuAnimationController.swift; path = Pod/Classes/SideMenuAnimationController.swift; sourceTree = "<group>"; };
 		E51D85AA21E9DB58A95749C766F91FB8 /* Pods-Somnos-SomnosUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Somnos-SomnosUITests.modulemap"; sourceTree = "<group>"; };
-		E75C9A0219FA9A8549608180036A1055 /* Pods_Somnos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Somnos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED1E87825FD4E82FB5B9139F6CF313B0 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Pod/Classes/Protected.swift; sourceTree = "<group>"; };
+		E75C9A0219FA9A8549608180036A1055 /* Pods-Somnos */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Somnos"; path = Pods_Somnos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F172647B2CF88AC734CECA9DCD238B74 /* Pods-SomnosTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SomnosTests.modulemap"; sourceTree = "<group>"; };
-		F2E20D510F5321F5A5B93895BB024107 /* SideMenuTransitionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransitionController.swift; path = Pod/Classes/SideMenuTransitionController.swift; sourceTree = "<group>"; };
 		F49C20F07099702B7A633B2A1AF74254 /* Pods-Somnos-SomnosUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Somnos-SomnosUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF57F96165F734C1F5A2962F67A97946 /* SideMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.release.xcconfig; sourceTree = "<group>"; };
+		FAEDAD33E39B2C6517EE2C665A844ABA /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,11 +124,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAB7C73B35AA92674FCE2C5B4AB04FEF /* Frameworks */ = {
+		82FD63D93485A155C89AFEF92356D209 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				232B00330A1B08DA73EBBA4AE95EABD1 /* Foundation.framework in Frameworks */,
+				BD8208636651FF9A59CEB52CBBB96C16 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,17 +140,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE24E2796DD0E542F281DA89DE5D934B /* Frameworks */ = {
+		F08205C3FAB5564A90EE2E6E17B7955A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736AA5A855A86426E4E4E5F05C0D1C5B /* Foundation.framework in Frameworks */,
+				5C880D312DF82CCDEE6A0B15A4294CF5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		065FF3C006D1A5171BF836C6AA535B96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B72C4994EA5E6719DEB95FF5415FB140 /* SideMenu.modulemap */,
+				C723107D860DB31CABCD028704863BA8 /* SideMenu-dummy.m */,
+				39731C041E2E77BC5245E8132FC071E0 /* SideMenu-Info.plist */,
+				BB7389E65A56B13A2B00F28FCEF9794F /* SideMenu-prefix.pch */,
+				FAEDAD33E39B2C6517EE2C665A844ABA /* SideMenu-umbrella.h */,
+				B741F11F3B190DB6E66E566ECF54FC35 /* SideMenu.debug.xcconfig */,
+				639605EE872C890DF7392A3818475BB5 /* SideMenu.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
 		3D6C577698DBD59F5D0CED2BEF80C5C1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,17 +201,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5D152EE74A570F0B25A460D28409B756 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E75C9A0219FA9A8549608180036A1055 /* Pods_Somnos.framework */,
-				6A6BB8EF56D0E0466836E1491588D99F /* Pods-Somnos-SomnosUITests */,
-				C14B0EA4F46A87135200F20D0AA4D57C /* Pods-SomnosTests */,
-				319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6AA5FBC6B2A24E96B834CF516598756A /* Pods-SomnosTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,19 +217,35 @@
 			path = "Target Support Files/Pods-SomnosTests";
 			sourceTree = "<group>";
 		};
-		9FAB51D81F7EF7D713407A42705C44E8 /* Support Files */ = {
+		7D34FA07FC7B9431D63786FEAE0BA6F5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0E5084CDBD6EF57AC95465E86D1E9663 /* SideMenu.modulemap */,
-				425408FAE576E275F18742A28ACB1D79 /* SideMenu-dummy.m */,
-				2A5A32555BE8FC4F3F0FFF4BE7D2E917 /* SideMenu-Info.plist */,
-				94CE645C938DBD5A6FDFFE79D4CBA57E /* SideMenu-prefix.pch */,
-				3E35D83E3ED842234225B76D9BF20588 /* SideMenu-umbrella.h */,
-				27869986A6717FF7B7DABA8C8E76849F /* SideMenu.debug.xcconfig */,
-				FF57F96165F734C1F5A2962F67A97946 /* SideMenu.release.xcconfig */,
+				860B550C527090E352A83A65C289DBC3 /* SideMenu */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SideMenu";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		860B550C527090E352A83A65C289DBC3 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C5E0EF1FE9720FBF7E95FDF1468E9464 /* Deprecations.swift */,
+				CACD16025EBF0FAAFEC087DE312E58C8 /* Extensions.swift */,
+				B435A692AE8CB71108BC3C8B3E424BE1 /* Initializable.swift */,
+				AE8A8B5179015129C9DC09887F8A8E0F /* Print.swift */,
+				9E1F12E6E9DEC732642010364EE9795B /* Protected.swift */,
+				DEDB9B2576E9F7BC25C5B4B3ED9D9275 /* SideMenuAnimationController.swift */,
+				BF29DE67A5AA1D16125206E5A037E259 /* SideMenuInteractionController.swift */,
+				7D16C168F52FDF8EC2C45F49A36F215C /* SideMenuManager.swift */,
+				8E4B80BD863C174D5427612E5FC99ED1 /* SideMenuNavigationController.swift */,
+				29DA75D7F8119ABA5A3EF4AB757FE0EF /* SideMenuPresentationController.swift */,
+				1907B78B39DE0F0C6221B3F154AAC862 /* SideMenuPresentationStyle.swift */,
+				B007E87349E50118E13B294C1DF5CA0D /* SideMenuPushCoordinator.swift */,
+				296BE21FF7AAD7D19E6ED839F0804FC1 /* SideMenuTransitionController.swift */,
+				BA7C515B3D13887A728A453D7099F17D /* UITableViewVibrantCell.swift */,
+				065FF3C006D1A5171BF836C6AA535B96 /* Support Files */,
+			);
+			name = SideMenu;
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -233,8 +253,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E2DDCB5B9374EA51AED9CEDA1B32D75B /* Pods */,
-				5D152EE74A570F0B25A460D28409B756 /* Products */,
+				7D34FA07FC7B9431D63786FEAE0BA6F5 /* Pods */,
+				D7981DE100553E2DBE4A13E04DF7D365 /* Products */,
 				3D6C577698DBD59F5D0CED2BEF80C5C1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -264,52 +284,33 @@
 			path = "Target Support Files/Pods-Somnos-SomnosUITests";
 			sourceTree = "<group>";
 		};
-		E2DDCB5B9374EA51AED9CEDA1B32D75B /* Pods */ = {
+		D7981DE100553E2DBE4A13E04DF7D365 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCA3F2E8C2D647DE9F607C41AF148201 /* SideMenu */,
+				E75C9A0219FA9A8549608180036A1055 /* Pods-Somnos */,
+				6A6BB8EF56D0E0466836E1491588D99F /* Pods-Somnos-SomnosUITests */,
+				C14B0EA4F46A87135200F20D0AA4D57C /* Pods-SomnosTests */,
+				319D06AA0D1D0BA345459C039040A1ED /* SideMenu */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FCA3F2E8C2D647DE9F607C41AF148201 /* SideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				3A586D752EF127FC1C53D7F6BA8926CE /* Deprecations.swift */,
-				904A39949CB2D22CE930414F45CCFDFC /* Extensions.swift */,
-				47E73D1242A5DD0CE8740AAF02AF8CE8 /* Initializable.swift */,
-				742042316473BB12E0D007A30360AF66 /* Print.swift */,
-				ED1E87825FD4E82FB5B9139F6CF313B0 /* Protected.swift */,
-				BC7393E935111C615821A2A2C2C27599 /* SideMenuAnimationController.swift */,
-				8DB499A17C3DAFFAC2BF9CFBE871C4AC /* SideMenuInteractionController.swift */,
-				C3DEA7210FF04957212F4255F9214712 /* SideMenuManager.swift */,
-				D553C9004629651B44F4DF3DFCBCEAB2 /* SideMenuNavigationController.swift */,
-				9DEB12B697C383FA2ADDB73ADE64AA65 /* SideMenuPresentationController.swift */,
-				336532C8255035046D3782BC026E29D6 /* SideMenuPresentationStyle.swift */,
-				6C505F14AA1B56CEB9056F4714205BA7 /* SideMenuPushCoordinator.swift */,
-				F2E20D510F5321F5A5B93895BB024107 /* SideMenuTransitionController.swift */,
-				173C241A22D6F9C5F65F49440B19A5DF /* UITableViewVibrantCell.swift */,
-				9FAB51D81F7EF7D713407A42705C44E8 /* Support Files */,
-			);
-			path = SideMenu;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		00DD49B77C57007B7893A770B7F35838 /* Headers */ = {
+		0BDFA6A6904C78CCAAFDF7F5432CC820 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A41BA8976BFB9DFDDD6BC8CD0B6FEF /* Pods-Somnos-SomnosUITests-umbrella.h in Headers */,
+				6F9EBC0E9EE2041760B64DB2C9416A88 /* Pods-Somnos-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0906DD84FF77E4717DC055EF18469F5B /* Headers */ = {
+		3EABC7C13696F99F90EA37E0DC5755C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E13EAEC23B4500EB07602B9364F933A0 /* Pods-Somnos-umbrella.h in Headers */,
+				97977DC83C3813B7DDD3F75A15081498 /* Pods-Somnos-SomnosUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +345,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7D8570959DFA7D7E2C63697B9C8DE4D4 /* PBXTargetDependency */,
+				85624C7C5108C21C907A1FE10EFF6585 /* PBXTargetDependency */,
 			);
 			name = "Pods-SomnosTests";
 			productName = Pods_SomnosTests;
@@ -353,21 +354,21 @@
 		};
 		673BB18AC1CAA446440A334D08986D26 /* Pods-Somnos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBEE37B47DF58D6EE677478B4FC63271 /* Build configuration list for PBXNativeTarget "Pods-Somnos" */;
+			buildConfigurationList = 763A1BB45777DF3E7C8DA3C90B4BD4AB /* Build configuration list for PBXNativeTarget "Pods-Somnos" */;
 			buildPhases = (
-				0906DD84FF77E4717DC055EF18469F5B /* Headers */,
-				A742DC1EE6B1898BA770FF22E00B059C /* Sources */,
-				EE24E2796DD0E542F281DA89DE5D934B /* Frameworks */,
-				37523218F5371AD46FAB5B6FBF30E80E /* Resources */,
+				0BDFA6A6904C78CCAAFDF7F5432CC820 /* Headers */,
+				25E1422EFF5A7E32B5B16001AFEA3921 /* Sources */,
+				F08205C3FAB5564A90EE2E6E17B7955A /* Frameworks */,
+				0191E5338DBB2B382332B997982B6780 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B927E971C63624879B49D716D7E4A6E0 /* PBXTargetDependency */,
+				3A3C92E7F2DDBB9907788F30B0F3AB08 /* PBXTargetDependency */,
 			);
 			name = "Pods-Somnos";
 			productName = Pods_Somnos;
-			productReference = E75C9A0219FA9A8549608180036A1055 /* Pods_Somnos.framework */;
+			productReference = E75C9A0219FA9A8549608180036A1055 /* Pods-Somnos */;
 			productType = "com.apple.product-type.framework";
 		};
 		C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */ = {
@@ -385,22 +386,22 @@
 			);
 			name = SideMenu;
 			productName = SideMenu;
-			productReference = 319D06AA0D1D0BA345459C039040A1ED /* SideMenu.framework */;
+			productReference = 319D06AA0D1D0BA345459C039040A1ED /* SideMenu */;
 			productType = "com.apple.product-type.framework";
 		};
 		FABDEA02BE507F10C020B9DF33D80C4A /* Pods-Somnos-SomnosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AFD13F8D46D2D0EC7DBB0906372BCF4 /* Build configuration list for PBXNativeTarget "Pods-Somnos-SomnosUITests" */;
+			buildConfigurationList = C7B81085F1455E1B928C004B242FC374 /* Build configuration list for PBXNativeTarget "Pods-Somnos-SomnosUITests" */;
 			buildPhases = (
-				00DD49B77C57007B7893A770B7F35838 /* Headers */,
-				5CF510C4B8C7D119CF92443407537006 /* Sources */,
-				CAB7C73B35AA92674FCE2C5B4AB04FEF /* Frameworks */,
-				A0FA48F8430B07D140CE802F35C22F4A /* Resources */,
+				3EABC7C13696F99F90EA37E0DC5755C1 /* Headers */,
+				292A5FEBD72F520EEB010CD22E22EC82 /* Sources */,
+				82FD63D93485A155C89AFEF92356D209 /* Frameworks */,
+				769A2FB515B15DC82FC97AF1650AD249 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1E838490AEEC36D8A60840325F2F51E0 /* PBXTargetDependency */,
+				043B2D01367F44E9598EB4B814DB6AE0 /* PBXTargetDependency */,
 			);
 			name = "Pods-Somnos-SomnosUITests";
 			productName = Pods_Somnos_SomnosUITests;
@@ -414,7 +415,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -425,7 +426,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5D152EE74A570F0B25A460D28409B756 /* Products */;
+			productRefGroup = D7981DE100553E2DBE4A13E04DF7D365 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -438,7 +439,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		37523218F5371AD46FAB5B6FBF30E80E /* Resources */ = {
+		0191E5338DBB2B382332B997982B6780 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,7 +453,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0FA48F8430B07D140CE802F35C22F4A /* Resources */ = {
+		769A2FB515B15DC82FC97AF1650AD249 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -469,19 +470,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		25E1422EFF5A7E32B5B16001AFEA3921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB174522C4A9A238B9A6757A6602AEBC /* Pods-Somnos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		292A5FEBD72F520EEB010CD22E22EC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD595955719FE02DBC3B79E1C967DCE /* Pods-Somnos-SomnosUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2B4141959A6668F3B10A4ABDAF4B180B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				549A66010B6B909D7AB7CB20F124AC24 /* Pods-SomnosTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CF510C4B8C7D119CF92443407537006 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96985A679DFCD76FF2C68A93A7EB408E /* Pods-Somnos-SomnosUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,41 +516,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A742DC1EE6B1898BA770FF22E00B059C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29B9C552848A5AF643991439834E38F7 /* Pods-Somnos-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E838490AEEC36D8A60840325F2F51E0 /* PBXTargetDependency */ = {
+		043B2D01367F44E9598EB4B814DB6AE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SideMenu;
 			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
-			targetProxy = 96DEDAD99B067BBDA981C98BC7BB215C /* PBXContainerItemProxy */;
+			targetProxy = 7893ED14997A427C225B735CB8965A3C /* PBXContainerItemProxy */;
 		};
-		7D8570959DFA7D7E2C63697B9C8DE4D4 /* PBXTargetDependency */ = {
+		3A3C92E7F2DDBB9907788F30B0F3AB08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
+			targetProxy = ACB5C64333C9B3BE7951873C324F8053 /* PBXContainerItemProxy */;
+		};
+		85624C7C5108C21C907A1FE10EFF6585 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Somnos";
 			target = 673BB18AC1CAA446440A334D08986D26 /* Pods-Somnos */;
-			targetProxy = 9F83ECEFB7C3D2B268A4DAB1A0263239 /* PBXContainerItemProxy */;
-		};
-		B927E971C63624879B49D716D7E4A6E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SideMenu;
-			target = C4A0A7D8591B67FB75E2E8D215E3735B /* SideMenu */;
-			targetProxy = E90FF13B4BC192F4E5385E9A144B4610 /* PBXContainerItemProxy */;
+			targetProxy = 9B700ED51326B98ABE62D738B3C45B4C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		46BFE2312ECDC35BEC02D94DC5B60F4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF57F96165F734C1F5A2962F67A97946 /* SideMenu.release.xcconfig */;
+			baseConfigurationReference = 639605EE872C890DF7392A3818475BB5 /* SideMenu.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -555,7 +556,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -575,7 +576,7 @@
 			};
 			name = Release;
 		};
-		6672C5BA63414B786A4F280EC8963C01 /* Debug */ = {
+		60A9ACA8273FC96A728B1606080B6896 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C7FD54B5154ED05971734A5F3DEE517 /* Pods-Somnos-SomnosUITests.debug.xcconfig */;
 			buildSettings = {
@@ -612,9 +613,9 @@
 			};
 			name = Debug;
 		};
-		90CE7C171B8541FEF745FEECDD39CD10 /* Release */ = {
+		7430FBC33AB90666F717636EE463DDBC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52F9E5A945B96149FD854C3F6B21C821 /* Pods-Somnos.release.xcconfig */;
+			baseConfigurationReference = B199C2CF9858B6A60F0578206E1159C1 /* Pods-Somnos.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -644,15 +645,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		9E0C37648D76E361234D07CA876D0358 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27869986A6717FF7B7DABA8C8E76849F /* SideMenu.debug.xcconfig */;
+			baseConfigurationReference = B741F11F3B190DB6E66E566ECF54FC35 /* SideMenu.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -666,7 +666,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SideMenu/SideMenu-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -722,43 +722,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BB27166DA03A262449A9902C1DC75E76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B199C2CF9858B6A60F0578206E1159C1 /* Pods-Somnos.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Somnos/Pods-Somnos-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Somnos/Pods-Somnos.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -925,7 +888,7 @@
 			};
 			name = Release;
 		};
-		EA9FE2141AFBC85FC8F8FE3F92802B49 /* Release */ = {
+		D6758057C4EC2763D272B646B58E8793 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3C052868DAB1602ECF81276EE5C49EDF /* Pods-Somnos-SomnosUITests.release.xcconfig */;
 			buildSettings = {
@@ -963,23 +926,61 @@
 			};
 			name = Release;
 		};
+		F296ACAAEE994A50AD5028B6D02CE1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F9E5A945B96149FD854C3F6B21C821 /* Pods-Somnos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Somnos/Pods-Somnos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Somnos/Pods-Somnos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AFD13F8D46D2D0EC7DBB0906372BCF4 /* Build configuration list for PBXNativeTarget "Pods-Somnos-SomnosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6672C5BA63414B786A4F280EC8963C01 /* Debug */,
-				EA9FE2141AFBC85FC8F8FE3F92802B49 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
 				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763A1BB45777DF3E7C8DA3C90B4BD4AB /* Build configuration list for PBXNativeTarget "Pods-Somnos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7430FBC33AB90666F717636EE463DDBC /* Debug */,
+				F296ACAAEE994A50AD5028B6D02CE1B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -993,20 +994,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C7B81085F1455E1B928C004B242FC374 /* Build configuration list for PBXNativeTarget "Pods-Somnos-SomnosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60A9ACA8273FC96A728B1606080B6896 /* Debug */,
+				D6758057C4EC2763D272B646B58E8793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DB82CB59601BF0AC7D05DEED9D5CE035 /* Build configuration list for PBXNativeTarget "Pods-SomnosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE2A4DB718CAC3A93B08BC77F8A6EA81 /* Debug */,
 				AB8E2C8F07DCC55022B692CD938B5737 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBEE37B47DF58D6EE677478B4FC63271 /* Build configuration list for PBXNativeTarget "Pods-Somnos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB27166DA03A262449A9902C1DC75E76 /* Debug */,
-				90CE7C171B8541FEF745FEECDD39CD10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
