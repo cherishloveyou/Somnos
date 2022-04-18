@@ -3,6 +3,7 @@
 //      Confirmation of sound selection
 //      Create animation for camera screen (low priority)
 //Functionality
+//      fix broken sounds (apex, default)
 //      App runs in background
 //      Fine tune values
 
@@ -11,6 +12,7 @@ import SideMenu
 import SceneKit
 import ARKit
 import AVFoundation
+import AudioToolbox
 
 //MARK: Sound
 public var selectedSound = "bleep"
@@ -26,8 +28,8 @@ public func playSound() {
         player = try AVAudioPlayer(contentsOf: url, fileTypeHint: AVFileType.mp3.rawValue)
         
         guard let player = player else { return }
-        player.numberOfLoops = 2
-        player.setVolume(75, fadeDuration: 1)
+        player.numberOfLoops = 1
+        player.setVolume(85, fadeDuration: 1)
         
         player.play()
         
@@ -37,42 +39,47 @@ public func playSound() {
 }
 
 class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDelegate {
-        
+    var recOn = false
     //menu variables
     var menu: SideMenuNavigationController?
     let changeRingtoneViewController = ChangeRingtoneViewController()
     let aboutViewController = AboutViewController()
     @IBOutlet weak var barButton: UIBarButtonItem!
-
+    
     //declaring view & variables
     @IBOutlet var sceneView: ARSCNView!
     @IBOutlet weak var driveStartButton: UIButton!
+    @IBOutlet weak var youHaveBeenDrivingForLabel: UILabel!
+    
+   
+    //DEBUGGERS
+    @IBOutlet weak var testLabel: UILabel!
+    
+    
+    
+    //warning variables
+    @IBOutlet weak var centerWarningImage: UIImageView!
     
     //blink detection variables
     var timestamp = NSDate().timeIntervalSince1970
     var queue: [Double] = []
-    var analysis = ""
+    var TSCollection:[Double] = []
     var blink = false
     var acct: Float = 0.0
     
     //light status variables
     var light = true
     var onCooldown = false
+    var blind = false
     
     //timer variables
     @IBOutlet weak var timerLabel: UILabel!
     var timer = Timer()
     var count = 0
     var timerCounting = false
-    
-    //constants
-    let threshold: Float = 10
-    
-    // MARK: Debuggers (Remove)
-    @IBOutlet weak var testLabel: UILabel!
-    
-    
-    // MARK: Button Actions
+    var timer1On = false
+    var timer1: Float = 0.0
+    var repCD = false
     
     private func addChildControllers() {
         addChild(changeRingtoneViewController)
@@ -89,6 +96,12 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
         
         changeRingtoneViewController.view.isHidden = true
         aboutViewController.view.isHidden = true
+    }
+    
+    // MARK: UI Actions
+    
+    func didReposition (){
+        
     }
     
     @IBAction func didTapMenu(){
@@ -121,27 +134,38 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
         if(timerCounting)
         {
             timerLabel.isHidden = true
+            youHaveBeenDrivingForLabel.isHidden = true
             timerLabel.text = "00 : 00 : 00"
             timerCounting = false
             timer.invalidate()
-            count = 0
+            //count = 0
             driveStartButton.setTitle("START", for: .normal)
+           
+            let x1 = ((60 * Double(TSCollection.count) / TSCollection.sum()))
+            //let x2 = String(x1 / (Double(self.count) / 60.0))
+            self.testLabel.text = String(x1)
+            
         }
         else
         {
             count = 0
+            TSCollection = []
             timerLabel.isHidden = false
+            youHaveBeenDrivingForLabel.isHidden = false
             timerCounting = true
             driveStartButton.setTitle("STOP", for: .normal)
             timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { _ in
                 self.updateTimer()
             })
+            
         }
     }
     
     //MARK: viewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        UIApplication.shared.isIdleTimerDisabled = true
         
         sceneView.delegate = self
         guard ARFaceTrackingConfiguration.isSupported else {
@@ -152,9 +176,18 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
         timerLabel.text = "00 : 00 : 00"
         timerLabel.isHidden = true
         
+        youHaveBeenDrivingForLabel.isHidden = true
+        
         driveStartButton.layer.cornerRadius = 50
         driveStartButton.layer.masksToBounds = true
         driveStartButton.clipsToBounds = true
+        
+        centerWarningImage.isHidden = true
+        centerWarningImage.layer.cornerRadius = 20
+        centerWarningImage.layer.masksToBounds = true
+        centerWarningImage.clipsToBounds = true
+        
+        testLabel.textColor = .black
         
         let sideMenu = MenuListController(with: ["Home",
                                                  "Change Ringtone",
@@ -197,6 +230,7 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
         let faceMesh = ARSCNFaceGeometry(device: sceneView.device!)
         let node = SCNNode(geometry: faceMesh)
         node.geometry?.firstMaterial?.fillMode = .lines
+        recursive10s() //run recursive timer
         return node
     }
     
@@ -204,49 +238,78 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
     func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
         if let faceAnchor = anchor as? ARFaceAnchor, let faceGeometry = node.geometry as? ARSCNFaceGeometry {
             faceGeometry.update(from: faceAnchor.geometry)
+            //print(sceneView.currentFrame.camera.trackingState)
             expression(anchor: faceAnchor)
         }
     }
     
     // MARK: - Blink Check Function
     func expression(anchor: ARFaceAnchor) {
-        //print(checkFaceStatus(anchor: anchor))
+        
+        let b = faceStatus(anchor: anchor)
+        if(b == "Reposition"){
+            blind = true
+        }else{
+            blind = false
+        }
+        if (b == "Reposition" && !repCD) {
+            blind = true
+            DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+                if(self.blind){
+                    print("reposition")
+                // MARK: ergsdh
+                    print(self.faceStatus(anchor: anchor) == "Reposition")
+                    if(self.faceStatus(anchor: anchor) == "Reposition"){
+                        self.centerWarningImage.isHidden = false
+                        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+                        playSound()
+                    }
+                    
+                }
+                self.repCD = false  
+            }
+            self.repCD = true
+            
+        }
         let blinkRight = anchor.blendShapes[.eyeBlinkLeft]
         let blinkLeft = anchor.blendShapes[.eyeBlinkRight]
-        let Lval = Double(truncating: blinkLeft ?? 0.0)
-        let Rval = Double(truncating: blinkRight ?? 0.0)
-        self.analysis = "Left blink = \(round(Lval*10)/10.0) & Right blink = \(round(Rval*10)/10.0)\nAcct = \(acct)\nArray = \(queue)"
         
         //blink check
-        if (((blinkLeft?.decimalValue ?? 0.0 > 0.75) && (blinkRight?.decimalValue ?? 0.0 > 0.75)) && !blink){
+        if (((blinkLeft?.decimalValue ?? 0.0 > 0.65) && (blinkRight?.decimalValue ?? 0.0 > 0.65)) && !blink){
             blink = true
-            
+            timer1On = true
             let newtimestamp = NSDate().timeIntervalSince1970
             let timestampDifference = abs(newtimestamp - timestamp)
             acct += Float(timestampDifference)
             timestamp = newtimestamp
             queue.append(timestampDifference)
-            
-            self.analysis += "\(queue[0])"
-            
-            //dump(queue)
-            print("Acct\(acct)")
-            
-            //add wait maybe
+            if(timerCounting){
+                TSCollection.append(timestampDifference)
+            }
             if (queue.count > 30){
                 queue.remove(at: 0)
-                if (acct > threshold){
-                    acct = 0.0
-                    statistics()
-                }
             }
             
-        } else if (blinkLeft?.decimalValue ?? 0.0 < 0.75) && (blinkRight?.decimalValue ?? 0.0 < 0.75) {
+        } else if (blinkLeft?.decimalValue ?? 0.0 < 0.65) && (blinkRight?.decimalValue ?? 0.0 < 0.65) {
             blink = false
+            if(timer1On){
+                timer1On = false
+                timer1 = 0.0
+                print("stopped timer")
+            }
         }
         
     }
-    
+    //dispatch queue
+    func recursive10s(){
+        DispatchQueue.main.asyncAfter(deadline: .now() + 10.0) {
+            if(self.recOn){
+                self.statistics()
+                self.recursive10s()
+            }
+        }
+    }
+
     // MARK: Statistics Function
     func statistics () {
         let x = 60 * 30 / queue.avg();
@@ -258,69 +321,63 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
         }
         if(x > 15){
             //they need to see a doctor
-            print("Seek a doctor")
+            //print("Seek a doctor")
         }
     }
     
-    //MARK: Light & Face Status Function
-    func checkFaceStatus (anchor: ARFaceAnchor) /* -> String */ {
-        //var status = ""
+    
+    //MARK: Light & Face Status Func
+    func faceStatus (anchor: ARFaceAnchor)  -> String  {
+        self.centerWarningImage.isHidden = true
         // move the light estimation to another
         let frame = sceneView.session.currentFrame
         let lightEstimate = Int (frame?.lightEstimate?.ambientIntensity ?? 0)
-        //print("Lightestimate:\(lightEstimate)")
-        
         if (lightEstimate < 50) {
-            //print("Lighting is too dark")
             light = false
         } else {
             light = true
         }
-        
-        /*if (!light && !onCooldown){
-            onCooldown = true
-            let seconds = 2.5
-            DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
-                if (!self.light){
-                    print("It's too dark")
-                    playSound()
-                }
-                self.onCooldown = false
-            }*/
-        
         if (!onCooldown){
-            onCooldown = true
+            self.onCooldown = true
             let seconds = 2.5
+           // let b = anchor.isTracked
+            
             DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
-                print("a");
-                print(self.light)
-                playSound()
-                print(light)
-                print(onCooldown)
-                print(self.onCooldown)
                 if (!self.light){
                     print("It's too dark")
                     playSound()
-                }
-                if (!anchor.isTracked) {
+                }/*
+                if (!b) {
                     print("reposition")
+                    // MARK: ergsdh
+                    self.centerWarningImage.isHidden = false
                     playSound()
-                }
+                }*/
                 self.onCooldown = false
             }
         }
-        
-        //status = anchor.isTracked ? "Tracking working" : "Reposition"
-        //return status
+        return (anchor.isTracked ? "Tracking working" : "Reposition")
     }
     
     
-    
     @objc func updateTimer() {
+        print("TSCollection.count \(TSCollection.count)")
+        print("TSCollection.avg \(TSCollection.avg())")
         count = count + 1
+        //blink hold
+        if(timer1On){
+            timer1 = timer1 + 1.0
+            if(timer1 > 3.0){
+                //ALERT USER HERE
+                timer1 = 0.0
+                timer1On = false
+                print("held blink for 3+s")
+            }
+        }
         let time = secondsToHoursMinutesSeconds(seconds: count)
         let timeString = makeTimeString(hours: time.0, minutes: time.1, seconds: time.2)
         timerLabel.text = timeString
+        
     }
     
     func secondsToHoursMinutesSeconds(seconds: Int) -> (Int, Int, Int) {
@@ -335,24 +392,6 @@ class ViewController: UIViewController, ARSCNViewDelegate, MenuListControllerDel
         timeString += " : "
         timeString += String(format: "%02d", seconds)
         return timeString
-    }
-}
-
-//MARK: Extensions
-extension Array where Element: FloatingPoint {
-    
-    func sum() -> Element {
-        return self.reduce(0, +)
-    }
-    
-    func avg() -> Element {
-        return self.sum() / Element(self.count)
-    }
-    
-    func std() -> Element {
-        let mean = self.avg()
-        let v = self.reduce(0, { $0 + ($1-mean)*($1-mean) })
-        return sqrt(v / (Element(self.count) - 1))
     }
 }
 
@@ -405,4 +444,22 @@ class MenuListController: UITableViewController{
         delegate?.didSelectItem(named: selectedItem)
     }
     
+}
+
+//MARK: Extensions
+extension Array where Element: FloatingPoint {
+    
+    func sum() -> Element {
+        return self.reduce(0, +)
+    }
+    
+    func avg() -> Element {
+        return self.sum() / Element(self.count)
+    }
+    
+    func std() -> Element {
+        let mean = self.avg()
+        let v = self.reduce(0, { $0 + ($1-mean)*($1-mean) })
+        return sqrt(v / (Element(self.count) - 1))
+    }
 }

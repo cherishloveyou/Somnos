@@ -30,7 +30,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Xzg-lx-nug" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="I3u-xR-as8"/>
+                            <constraint firstItem="Xzg-lx-nug" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="MQ1-lW-YBD"/>
+                            <constraint firstItem="Xzg-lx-nug" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="-770" id="QzC-CG-jCv"/>
                             <constraint firstAttribute="bottom" secondItem="Xzg-lx-nug" secondAttribute="bottom" constant="-770" id="T73-Hj-b6R"/>
+                            <constraint firstItem="Xzg-lx-nug" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="UhE-GU-aD1"/>
+                            <constraint firstAttribute="bottom" secondItem="Xzg-lx-nug" secondAttribute="bottom" constant="-770" id="YB5-C7-AWM"/>
                             <constraint firstAttribute="trailing" secondItem="Xzg-lx-nug" secondAttribute="trailing" id="tu5-NX-ul0"/>
                         </constraints>
                     </view>

@@ -16,10 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOf-j9-tEV">
-                                <rect key="frame" x="65" y="647" width="284" height="98"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOf-j9-tEV">
+                                <rect key="frame" x="65" y="656" width="284" height="98"/>
                                 <color key="backgroundColor" red="0.28839817176870747" green="0.5" blue="0.72680165816326525" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="FI5-Xk-40U"/>
+                                    <constraint firstAttribute="height" constant="98" id="wdS-B5-pdc"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <state key="normal" title="Start Driving">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -28,23 +31,56 @@
                                     <action selector="driveButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JOh-3j-ay0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3J-9b-L6h">
-                                <rect key="frame" x="30" y="496" width="354" height="144"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3J-9b-L6h">
+                                <rect key="frame" x="62" y="564" width="290" height="86"/>
+                                <color key="tintColor" red="0.28839817179999999" green="0.5" blue="0.72680165819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="71"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="0.28839817179999999" green="0.5" blue="0.72680165819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.26169217690000002" green="0.5" blue="0.72680165819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rw6-yl-Wbd">
-                                <rect key="frame" x="114" y="354" width="187" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="New Project-4-2" translatesAutoresizingMaskIntoConstraints="NO" id="3un-da-xQC">
+                                <rect key="frame" x="87" y="268" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="7kB-Xn-cbH"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have been driving for" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2B-cs-6Ns">
+                                <rect key="frame" x="65" y="533" width="284" height="31"/>
+                                <color key="tintColor" red="0.28839817179999999" green="0.5" blue="0.72680165819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.28839817179999999" green="0.5" blue="0.72680165819999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yf2-zZ-24l">
+                                <rect key="frame" x="0.0" y="101" width="414" height="145"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.67843137249999996" green="0.84705882349999995" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="E3J-9b-L6h" firstAttribute="centerX" secondItem="FOf-j9-tEV" secondAttribute="centerX" id="17p-qg-ckp"/>
+                            <constraint firstItem="FOf-j9-tEV" firstAttribute="leading" secondItem="P2B-cs-6Ns" secondAttribute="leading" id="2db-mD-OUz"/>
+                            <constraint firstItem="3un-da-xQC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="4Vb-FU-mtV"/>
+                            <constraint firstItem="3un-da-xQC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="77h-2r-WVM"/>
+                            <constraint firstItem="yf2-zZ-24l" firstAttribute="centerX" secondItem="3un-da-xQC" secondAttribute="centerX" id="Af0-Wc-sYS"/>
+                            <constraint firstItem="FOf-j9-tEV" firstAttribute="top" secondItem="P2B-cs-6Ns" secondAttribute="bottom" constant="92" id="Fbc-Xg-InF"/>
+                            <constraint firstItem="yf2-zZ-24l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="KMh-ef-ECC"/>
+                            <constraint firstItem="P2B-cs-6Ns" firstAttribute="top" secondItem="3un-da-xQC" secondAttribute="bottom" constant="25" id="LJ0-r5-ri8"/>
+                            <constraint firstItem="E3J-9b-L6h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sdy-ft-Gqm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="E3J-9b-L6h" secondAttribute="bottom" constant="212" id="YTp-2w-mnf"/>
+                            <constraint firstItem="E3J-9b-L6h" firstAttribute="top" secondItem="P2B-cs-6Ns" secondAttribute="bottom" id="ZpZ-Ec-xyR"/>
+                            <constraint firstItem="E3J-9b-L6h" firstAttribute="centerX" secondItem="3un-da-xQC" secondAttribute="centerX" id="a1M-qQ-h86"/>
+                            <constraint firstItem="E3J-9b-L6h" firstAttribute="centerX" secondItem="P2B-cs-6Ns" secondAttribute="centerX" id="iLl-f2-x6T"/>
+                            <constraint firstItem="3un-da-xQC" firstAttribute="top" secondItem="yf2-zZ-24l" secondAttribute="bottom" constant="22" id="npo-Y9-ZjN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FOf-j9-tEV" secondAttribute="bottom" constant="108" id="q7A-CO-qC4"/>
+                            <constraint firstItem="yf2-zZ-24l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="v4P-5W-2ZZ"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Somnos" id="eiZ-D7-QMA">
                         <barButtonItem key="leftBarButtonItem" title="Settings" image="line.horizontal.3" catalog="system" id="JaA-Ci-hjN">
@@ -56,9 +92,12 @@
                     </navigationItem>
                     <connections>
                         <outlet property="barButton" destination="JaA-Ci-hjN" id="PLE-Ym-A4N"/>
+                        <outlet property="centerWarningImage" destination="3un-da-xQC" id="Meb-zc-IbC"/>
                         <outlet property="driveStartButton" destination="FOf-j9-tEV" id="fPM-69-cqk"/>
                         <outlet property="sceneView" destination="8bC-Xf-vdC" id="9T2-OY-MkX"/>
+                        <outlet property="testLabel" destination="yf2-zZ-24l" id="n52-eh-Xp8"/>
                         <outlet property="timerLabel" destination="E3J-9b-L6h" id="iBi-kr-W3d"/>
+                        <outlet property="youHaveBeenDrivingForLabel" destination="P2B-cs-6Ns" id="s95-yw-hMW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -160,6 +199,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="New Project-4-2" width="1500" height="1500"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

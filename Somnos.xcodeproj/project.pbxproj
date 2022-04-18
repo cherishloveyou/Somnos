@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,7 +11,6 @@
 		839F6BE927E07F9F00537758 /* ChangeRingtoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F6BE827E07F9F00537758 /* ChangeRingtoneViewController.swift */; };
 		839F6BEB27E07FE400537758 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F6BEA27E07FE400537758 /* AboutViewController.swift */; };
 		839F6BEE27E1273500537758 /* bleep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BED27E1273500537758 /* bleep.mp3 */; };
-		839F6BF227E1D01E00537758 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839F6BF127E1D01E00537758 /* TableViewController.swift */; };
 		839F6BF427E2F89400537758 /* radar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BF327E2F89400537758 /* radar.mp3 */; };
 		839F6BF627E2F93B00537758 /* apex.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BF527E2F93B00537758 /* apex.mp3 */; };
 		839F6BF827E2F94100537758 /* beacon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 839F6BF727E2F94100537758 /* beacon.mp3 */; };
@@ -27,6 +26,7 @@
 		83AA199D27D995A900DE280B /* SomnosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA199C27D995A900DE280B /* SomnosTests.swift */; };
 		83AA19A827D995A900DE280B /* SomnosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AA19A727D995A900DE280B /* SomnosUITests.swift */; };
 		83AA19B627D9998700DE280B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AA19B527D9998700DE280B /* Launch Screen.storyboard */; };
+		83AF134227E5243A009B0F23 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 83AF134127E5243A009B0F23 /* SideMenu */; };
 		CAAC0ED565085415C3559ECB /* Pods_Somnos_SomnosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF116988A98261C7DEA9571D /* Pods_Somnos_SomnosUITests.framework */; };
 		D55D3822F85651546473F679 /* Pods_Somnos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A25AE32667E7C252437130 /* Pods_Somnos.framework */; };
 /* End PBXBuildFile section */
@@ -56,7 +56,6 @@
 		839F6BE827E07F9F00537758 /* ChangeRingtoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeRingtoneViewController.swift; sourceTree = "<group>"; };
 		839F6BEA27E07FE400537758 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		839F6BED27E1273500537758 /* bleep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bleep.mp3; sourceTree = "<group>"; };
-		839F6BF127E1D01E00537758 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		839F6BF327E2F89400537758 /* radar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = radar.mp3; sourceTree = "<group>"; };
 		839F6BF527E2F93B00537758 /* apex.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apex.mp3; sourceTree = "<group>"; };
 		839F6BF727E2F94100537758 /* beacon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beacon.mp3; sourceTree = "<group>"; };
@@ -90,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AF134227E5243A009B0F23 /* SideMenu in Frameworks */,
 				D55D3822F85651546473F679 /* Pods_Somnos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,16 +164,12 @@
 			isa = PBXGroup;
 			children = (
 				839F6BEC27E1272400537758 /* Sounds */,
-				83AA198527D995A800DE280B /* AppDelegate.swift */,
+				83FCAAA127E6B4C4005D7AB2 /* Storyboards */,
+				83FCAAA027E6B46E005D7AB2 /* Views */,
 				83AA198727D995A800DE280B /* SceneDelegate.swift */,
-				83AA198927D995A800DE280B /* ViewController.swift */,
-				839F6BE827E07F9F00537758 /* ChangeRingtoneViewController.swift */,
-				839F6BEA27E07FE400537758 /* AboutViewController.swift */,
-				83AA198B27D995A800DE280B /* Main.storyboard */,
-				83AA19B527D9998700DE280B /* Launch Screen.storyboard */,
+				83AA198527D995A800DE280B /* AppDelegate.swift */,
 				83AA198E27D995A900DE280B /* Assets.xcassets */,
 				83AA199327D995A900DE280B /* Info.plist */,
-				839F6BF127E1D01E00537758 /* TableViewController.swift */,
 			);
 			path = Somnos;
 			sourceTree = "<group>";
@@ -194,6 +190,25 @@
 				83AA19A927D995A900DE280B /* Info.plist */,
 			);
 			path = SomnosUITests;
+			sourceTree = "<group>";
+		};
+		83FCAAA027E6B46E005D7AB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83AA198927D995A800DE280B /* ViewController.swift */,
+				839F6BE827E07F9F00537758 /* ChangeRingtoneViewController.swift */,
+				839F6BEA27E07FE400537758 /* AboutViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83FCAAA127E6B4C4005D7AB2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				83AA198B27D995A800DE280B /* Main.storyboard */,
+				83AA19B527D9998700DE280B /* Launch Screen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		A32A679247AECFD89C4C11E9 /* Pods */ = {
@@ -227,6 +242,9 @@
 			dependencies = (
 			);
 			name = Somnos;
+			packageProductDependencies = (
+				83AF134127E5243A009B0F23 /* SideMenu */,
+			);
 			productName = Somnos;
 			productReference = 83AA198227D995A800DE280B /* Somnos.app */;
 			productType = "com.apple.product-type.application";
@@ -301,6 +319,9 @@
 				Base,
 			);
 			mainGroup = 83AA197927D995A800DE280B;
+			packageReferences = (
+				83AF134027E5243A009B0F23 /* XCRemoteSwiftPackageReference "SideMenu" */,
+			);
 			productRefGroup = 83AA198327D995A800DE280B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -456,7 +477,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				839F6BE927E07F9F00537758 /* ChangeRingtoneViewController.swift in Sources */,
-				839F6BF227E1D01E00537758 /* TableViewController.swift in Sources */,
 				83AA198A27D995A800DE280B /* ViewController.swift in Sources */,
 				83AA198627D995A800DE280B /* AppDelegate.swift in Sources */,
 				839F6BEB27E07FE400537758 /* AboutViewController.swift in Sources */,
@@ -791,6 +811,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83AF134027E5243A009B0F23 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		83AF134127E5243A009B0F23 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 83AF134027E5243A009B0F23 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83AA197A27D995A800DE280B /* Project object */;
 }

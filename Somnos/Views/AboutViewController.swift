@@ -8,5 +8,6 @@ class AboutViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = backgroundColor
+        
     }
 }
