@@ -6,10 +6,9 @@ Somnos is a driver-safety sleep preventation app that uses ARKIT to detect the u
 ## Key Features
 
 1. Tracks user's blinking using ARKIT framework and true-depth front facing camera
-2. Sleep is detected when the time of a blink is below a blinking threshold 
-3. Emits audio warning when sleep is detected
-4. Customizable alarm sound
-5. Provides visual and haptic feedback for centering face
+2. Detects sleep when the time of a blink is below a blinking threshold 
+3. Emits audio warning when sleep is detected, numerous selectable alarm sounds
+4. Provides visual and haptic feedback options for centering face
 ## Tech Stack
 1. ARKIT
 2. AVFoundations
