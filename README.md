@@ -1,7 +1,7 @@
 
 # Somnos
 
-Somnos is a driver-safety sleep preventation app that uses ARKIT to detect the user's eye status. 
+Somnos is a driver-safety sleep preventation app that uses ARKIT to detect the user's eye status.  
 
 ## Key Features
 
